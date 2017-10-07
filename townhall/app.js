@@ -23,7 +23,7 @@
             'stops': [[7, 0], [8, .4]]
           }
         }
-      }, 'water');
+      }, 'admin');
       map.addLayer({
         'id': 'townhall',
         'type': 'symbol',
@@ -48,14 +48,14 @@
         'paint': {
           //'icon-color':'#402200',
           //'icon-halo-color':'rgba(255, 206, 0, 0.95)'
-          'text-color': '#fff',
-          'text-halo-color': '#111',
-          'text-halo-blur': 3,
+          'text-color': '#B86F26',
+          'text-halo-color': '#633D16',
+          'text-halo-blur': .8,
           'text-halo-width': {
-            'stops': [[5, 1], [8, 2]]
+            'stops': [[5, .1], [8, .2]]
           },
         }
-      });
+      }, 'state_label');
       map.addLayer({
         'id': 'etykiety',
         'type': 'symbol',
@@ -70,7 +70,7 @@
           'text-size': 14
         },
         paint: {
-          'text-color': '#eee',
+          'text-color': '#2ecc71',
           'text-opacity': {
             'stops': [[9, 0], [10, 1]]
           }
@@ -86,15 +86,20 @@
       });
       map.on('click', 'townhall', function (e) {
         var features = map.queryRenderedFeatures(e.point);
-        //console.log(features)
         var obj = e.features[0].properties['@id'];
-        obj = obj.replace(/([a-z])[a-z]{2,7}\/([0-9]{1,})/,'$1$2')
+        obj = obj.replace(/([a-z])[a-z]{2,7}\/([0-9]{1,})/, '$1$2')
         new mapboxgl.Popup()
           .setLngLat(features[0].geometry.coordinates)
-          .setHTML('<a target="_blank" href="http://localhost:8111/load_object?objects='+obj+'">Otwórz w JOSM</a> ')
+          .setHTML('<a onclick="loadObj(\'' + obj + '\')"  href="#">Otwórz w JOSM</a> ')
           .addTo(map);
       });
     });
   });
 
 })()
+
+function loadObj(obj) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'http://localhost:8111/load_object?objects=' + obj);
+  xhr.send(null);
+}
