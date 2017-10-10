@@ -116,14 +116,14 @@
 
 function loadObj(obj) {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'https://localhost:8111/load_object?objects=' + obj);
+  xhr.open('GET', 'https://localhost:8112/load_object?objects=' + obj);
   xhr.send();
 }
 
 function editInJOSM() {
   var bb = map.getBounds();
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'https://localhost:8111/load_and_zoom?left=' + bb.getWest() + '&right=' + bb.getEast() + '&top=' + bb.getNorth() + '&bottom=' + bb.getSouth());
+  xhr.open('GET', 'https://localhost:8112/load_and_zoom?left=' + bb.getWest() + '&right=' + bb.getEast() + '&top=' + bb.getNorth() + '&bottom=' + bb.getSouth());
   xhr.send();
 }
 
