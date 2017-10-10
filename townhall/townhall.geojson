@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-10-06T10:46:02Z",
+  "timestamp": "2017-10-10T11:46:02Z",
   "features": [
     {
       "type": "Feature",
@@ -16587,8 +16587,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.6544397,
-          54.0487608
+          15.6544622,
+          54.0487659
         ]
       },
       "id": "way/305017325"
@@ -20669,7 +20669,7 @@
         "addr:city": "Baborów",
         "addr:housenumber": "2a",
         "addr:postcode": "48-120",
-        "addr:street": "Dąbrowszczaków",
+        "addr:street": "Ratuszowa",
         "amenity": "townhall",
         "building": "yes",
         "email": "um@baborow.pl",
@@ -20684,7 +20684,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.9855496,
+          17.9855494,
           50.1579485
         ]
       },
@@ -23625,6 +23625,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/396668448",
+        "addr:city": "Stubno",
+        "addr:housenumber": "69A",
+        "addr:place": "Stubno",
+        "addr:postcode": "37-723",
+        "amenity": "townhall",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Urząd Gminy Stubno",
+        "source:addr": "EMUiA (emuia.gugik.gov.pl)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9512205,
+          49.8988578
+        ]
+      },
+      "id": "way/396668448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/396749537",
         "addr:city": "Lubomierz",
         "addr:city:simc": "0936210",
@@ -24361,9 +24385,14 @@
       "type": "Feature",
       "properties": {
         "@id": "way/430151939",
+        "addr:city": "Dobrzany",
+        "addr:housenumber": "1",
+        "addr:postcode": "73-130",
+        "addr:street": "Stanisława Staszica",
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd MIasta i Gminy",
+        "source:addr": "dobrzany.e-mapa.net",
         "@geometry": "center"
       },
       "geometry": {
@@ -25780,6 +25809,30 @@
         ]
       },
       "id": "node/528541884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530994547",
+        "addr:city": "Pacyna",
+        "addr:housenumber": "7",
+        "addr:postcode": "09-541",
+        "addr:street": "Wyzwolenia",
+        "amenity": "townhall",
+        "building": "commercial",
+        "email": "gmina@pacyna.mazowsze.pl",
+        "name": "Urząd Gminy w Pacynie",
+        "phone": "tel./fax 24 285 80 54, 285 80 64",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.712409,
+          52.2982262
+        ]
+      },
+      "id": "way/530994547"
     },
     {
       "type": "Feature",
@@ -32818,6 +32871,27 @@
         ]
       },
       "id": "node/2935671815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2936269181",
+        "addr:city": "Grabowiec",
+        "addr:housenumber": "3",
+        "addr:postcode": "22-425",
+        "addr:street": "Rynek",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Grabowiec",
+        "source:addr": "EMUiA (emuia.gugik.gov.pl)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5508846,
+          50.8186055
+        ]
+      },
+      "id": "node/2936269181"
     },
     {
       "type": "Feature",
@@ -40770,6 +40844,47 @@
         ]
       },
       "id": "node/5149734625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5157857080",
+        "amenity": "townhall",
+        "email": "gmina@solec.pl",
+        "name": "Urząd Gminy Solec nad Wisłą",
+        "website": "http://www.solec.pl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7668972,
+          51.1347533
+        ]
+      },
+      "id": "node/5157857080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5157857081",
+        "addr:city": "Garbów",
+        "addr:housenumber": "50",
+        "addr:postcode": "21-080",
+        "addr:street": "Krakowskie Przedmieście",
+        "amenity": "townhall",
+        "email": "ug@garbow.pl",
+        "name": "Urząd Gminy Garbów",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "website": "http://www.garbow.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3388069,
+          51.3517899
+        ]
+      },
+      "id": "node/5157857081"
     }
   ]
 }
