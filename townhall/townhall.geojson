@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-10-10T11:46:02Z",
+  "timestamp": "2017-10-10T18:28:03Z",
   "features": [
     {
       "type": "Feature",
@@ -4653,6 +4653,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/169495778",
+        "addr:city": "Sieciechów",
+        "addr:housenumber": "16",
+        "addr:postcode": "26-922",
+        "addr:street": "Rynek",
+        "amenity": "townhall",
+        "building": "public",
+        "height": "11",
+        "name": "Urząd Gminy Sieciechów",
+        "website": "http://www.sieciechow.pl/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.745405,
+          51.5386642
+        ]
+      },
+      "id": "way/169495778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/169621340",
         "addr:city": "Kartuzy",
         "addr:housenumber": "1",
@@ -6240,8 +6264,10 @@
         "addr:postcode": "27-310",
         "addr:street": "Dionizego Czachowskiego",
         "amenity": "townhall",
-        "building": "office",
+        "building": "public",
         "height": "10",
+        "name": "Urząd Gminy Ciepielów",
+        "opening_hours": "Mo-Fr 07:15-15:15",
         "source:addr": "EMUiA (emuia.gugik.gov.pl)",
         "@geometry": "center"
       },
@@ -13935,8 +13961,11 @@
         "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "yes",
+        "heritage": "2",
         "name": "Ratusz",
+        "ref:nid": "A-211",
         "source:addr": "emuia.gugik.gov.pl",
+        "start_date": "1430",
         "@geometry": "center"
       },
       "geometry": {
@@ -29718,8 +29747,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1941568135",
+        "addr:city": "Jaworzyna Śląska",
+        "addr:place": "Jaworzyna Śląska",
+        "addr:postcode": "58-140",
+        "addr:street": "Wolności",
         "amenity": "townhall",
-        "name": "Urząd Miejski"
+        "name": "Urząd Miejski",
+        "phone": "+48 74 8587 164",
+        "website": "www.jaworzyna.net",
+        "wheelchair": "no"
       },
       "geometry": {
         "type": "Point",
@@ -32526,6 +32562,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2805894168",
+        "addr:city": "Belsk Duży",
+        "addr:housenumber": "4",
+        "addr:postcode": "05-622",
+        "addr:street": "Jana Kozietulskiego",
+        "amenity": "townhall",
+        "name": "Urząd Gminy w Belsku Dużym",
+        "phone": "48 66 11 877",
+        "source:addr": "EMUiA (emuia.gugik.gov.pl)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8101827,
+          51.8245413
+        ]
+      },
+      "id": "node/2805894168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2806299401",
         "amenity": "townhall",
         "name": "Urząd Gminy",
@@ -34109,6 +34167,31 @@
         ]
       },
       "id": "node/3225703504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3243336460",
+        "addr:city": "Błędów",
+        "addr:city:simc": "0614736",
+        "addr:housenumber": "13",
+        "addr:street": "Sadurkowska",
+        "addr:street:sym_ul": "19416",
+        "amenity": "townhall",
+        "email": "urzad@bledow.pl",
+        "name": "Urząd Gminy Błędów",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "source:addr": "bledow.e-mapa.net",
+        "website": "http://www.bledow.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.69635,
+          51.77911
+        ]
+      },
+      "id": "node/3243336460"
     },
     {
       "type": "Feature",
@@ -40885,6 +40968,27 @@
         ]
       },
       "id": "node/5157857081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5159496103",
+        "addr:housenumber": "60",
+        "addr:place": "Chotcza-Józefów",
+        "addr:postcode": "27-312",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Chotcza",
+        "source:addr": "chotcza.e-mapa.net",
+        "website": "http://www.chotcza.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7731161,
+          51.2421267
+        ]
+      },
+      "id": "node/5159496103"
     }
   ]
 }
