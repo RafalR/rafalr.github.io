@@ -3,13 +3,13 @@
     mapboxgl.accessToken = 'pk.eyJ1IjoicmFmYWxyIiwiYSI6ImNpc3U2eDdjeTAwMWUyb3B0NWt4c2szMGMifQ.I9LYvPfqGJVSYzdgdfHnmQ';
     map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/dark-v9',
+      style: 'mapbox://styles/rafalr/cj8lib1zr5ys92spfqri0azsw',
       hash: true
     });
     map.setZoom(5)
     map.setCenter([19.5, 52.5]);
     map.on('load', function () {
-      map.addLayer({
+      /*map.addLayer({
         'id': 'granice',
         'type': 'line',
         'source': {
@@ -23,7 +23,7 @@
             'stops': [[7, 0], [8, .4]]
           }
         }
-      }, 'admin');
+      }, 'admin');*/
       map.addLayer({
         'id': 'townhall',
         'type': 'symbol',
