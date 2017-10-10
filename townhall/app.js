@@ -116,21 +116,21 @@
 
 function loadObj(obj) {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'http://localhost:8111/load_object?objects=' + obj);
+  xhr.open('GET', 'https://localhost:8111/load_object?objects=' + obj);
   xhr.send();
 }
 
 function editInJOSM() {
   var bb = map.getBounds();
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'http://localhost:8111/load_and_zoom?left=' + bb.getWest() + '&right=' + bb.getEast() + '&top=' + bb.getNorth() + '&bottom=' + bb.getSouth());
+  xhr.open('GET', 'https://localhost:8111/load_and_zoom?left=' + bb.getWest() + '&right=' + bb.getEast() + '&top=' + bb.getNorth() + '&bottom=' + bb.getSouth());
   xhr.send();
 }
 
 function searchQuery() {
   var xhr = new XMLHttpRequest();
   var q = document.getElementById('query').value;
-  xhr.open('GET', 'http://nominatim.openstreetmap.org/search?format=json&limit=5&q=' + q)
+  xhr.open('GET', 'https://nominatim.openstreetmap.org/search?format=json&limit=5&q=' + q)
   xhr.onload = function () {
     if (xhr.status >= 200 && xhr.status < 400) {
       var json = JSON.parse(xhr.responseText);
