@@ -1,0 +1,30 @@
+  #map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  #editBt {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+    z-index: 1000;
+  }
+
+  .searchTools {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+  }
+  #res{
+    background-color: #111;
+    font: 10px Verdana, Helvetica, Arial, sans-serif;
+    width: 200px;
+  }
+  #res a{
+    color: #fff;
+  }

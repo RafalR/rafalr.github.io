@@ -93,6 +93,22 @@
           .setHTML('<a onclick="loadObj(\'' + obj + '\')"  href="#">Otwórz w JOSM</a> ')
           .addTo(map);
       });
+      map.on('zoom', function () {
+        var z = map.getZoom();
+        var editBt = document.getElementById('editBt')
+        if (z < 13) {
+          editBt.style.display = 'none';
+        } else {
+          editBt.style.display = 'block';
+        }
+      });
+      document.getElementById('editBt').addEventListener('click', editInJOSM);
+      document.getElementById('searchBt').addEventListener('click', searchQuery);
+      document.getElementById('query').addEventListener('keypress', function (e) {
+        if (e.keyCode == 13) {
+          searchQuery()
+        }
+      })
     });
   });
 
@@ -101,5 +117,38 @@
 function loadObj(obj) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', 'http://localhost:8111/load_object?objects=' + obj);
-  xhr.send(null);
+  xhr.send();
+}
+
+function editInJOSM() {
+  var bb = map.getBounds();
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'http://localhost:8111/load_and_zoom?left=' + bb.getWest() + '&right=' + bb.getEast() + '&top=' + bb.getNorth() + '&bottom=' + bb.getSouth());
+  xhr.send();
+}
+
+function searchQuery() {
+  var xhr = new XMLHttpRequest();
+  var q = document.getElementById('query').value;
+  xhr.open('GET', 'http://nominatim.openstreetmap.org/search?format=json&limit=5&q=' + q)
+  xhr.onload = function () {
+    if (xhr.status >= 200 && xhr.status < 400) {
+      var json = JSON.parse(xhr.responseText);
+      var items = [];
+      json.forEach(function (el, index, array) {
+        items.push('<li><a href="#" onclick="goTo(' + el.lat + ',' + el.lon + ')">' + el.display_name + '</a></li>');
+      });
+      document.getElementById('res').innerHTML = items.join('');
+
+    }
+  };
+  xhr.send();
+}
+
+function goTo(lat, lon) {
+  map.flyTo({
+    center: [lon, lat],
+    zoom: 16.9,
+    speed: 0.9,
+  })
 }

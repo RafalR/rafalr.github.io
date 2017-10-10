@@ -1,37 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Wizualizacja amenity=townhall</title>
+  <meta charset='UTF-8'>
+  <title>GL map</title>
 </head>
 <script src='https://api.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css' rel='stylesheet' />
-<script src="app.js"></script>
-<style>
-  #map {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-  }
-
-</style>
+<link href='style.css' rel='stylesheet' />
+<script src='app.js'></script>
 
 <body>
+  <div class='searchTools'><input type='text' id='query'>
+    <button id='searchBt'>Szukaj</button>
+    <div id='res'></div>
+  </div>
+  <button id='editBt'>Edytuj w JOSM</button>
   <div id='map'></div>
 </body>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107680569-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-107680569-1');
-</script>
-
 
 </html>
