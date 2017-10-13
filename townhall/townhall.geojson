@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-10-10T18:28:03Z",
+  "timestamp": "2017-10-13T07:58:02Z",
   "features": [
     {
       "type": "Feature",
@@ -13966,6 +13966,8 @@
         "ref:nid": "A-211",
         "source:addr": "emuia.gugik.gov.pl",
         "start_date": "1430",
+        "wikidata": "Q9304404",
+        "wikipedia": "pl:Ratusz w Jarosławiu",
         "@geometry": "center"
       },
       "geometry": {
@@ -16497,31 +16499,6 @@
         ]
       },
       "id": "way/303606037"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/303617131",
-        "addr:city": "Ostrów Wielkopolski",
-        "addr:city:simc": "0937132",
-        "addr:housenumber": "3",
-        "addr:postcode": "63-400",
-        "addr:street": "Plac Stefana Rowińskiego",
-        "addr:street:sym_ul": "18924",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Powiatowa Stacja Sanitarno-Epidemiologiczna",
-        "source:addr": "mostrowwielkopolski.e-mapa.net",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.8191586,
-          51.6488818
-        ]
-      },
-      "id": "way/303617131"
     },
     {
       "type": "Feature",
@@ -20769,6 +20746,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/363935555",
+        "addr:city": "Polkowice",
+        "addr:housenumber": "1",
+        "addr:postcode": "59-100",
+        "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Gminy Polkowice",
