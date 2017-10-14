@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-10-13T07:58:02Z",
+  "timestamp": "2017-10-14T10:58:03Z",
   "features": [
     {
       "type": "Feature",
@@ -711,32 +711,6 @@
         ]
       },
       "id": "way/31246515"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/32282255",
-        "addr:city": "Puławy",
-        "addr:city:simc": "0956810",
-        "addr:housenumber": "5",
-        "addr:postcode": "24-100",
-        "addr:street": "Lubelska",
-        "addr:street:sym_ul": "11307",
-        "amenity": "townhall",
-        "building": "offices",
-        "name": "Urząd Miasta",
-        "source": "http://ump.waw.pl/ retrieved 12:29:37 03/17/09 (UMP-Lublin/src/LUBLIN.obszary.txt)",
-        "source:addr": "mpulawy.e-mapa.net",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.9729832,
-          51.4169265
-        ]
-      },
-      "id": "way/32282255"
     },
     {
       "type": "Feature",
@@ -10416,29 +10390,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/239449146",
-        "addr:city": "Maciejowice",
-        "addr:postcode": "08-480",
-        "amenity": "townhall",
-        "building": "yes",
-        "contact:email": "gok_maciejowice@poczta.onet.pl",
-        "historic": "yes",
-        "name": "Muzeum Tadeusza Kościuszki i bitwy maciejowickiej",
-        "tourism": "museum",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.5533396,
-          51.6924558
-        ]
-      },
-      "id": "way/239449146"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/239516988",
         "addr:city": "Dominowo",
         "addr:housenumber": "7",
@@ -15048,7 +14999,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/292182572",
-        "amenity": "townhall"
+        "addr:city": "Puńsk",
+        "addr:housenumber": "23",
+        "addr:postcode": "16-515",
+        "addr:street": "Adama Mickiewicza",
+        "amenity": "townhall",
+        "email": "ug_punsk@pro.onet.pl",
+        "fax": "+48 87 5161048",
+        "name": "Urząd Gminy Puńsk",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "phone": "+48 87 5161048",
+        "website": "http://www.ugpunsk.pl/"
       },
       "geometry": {
         "type": "Point",
@@ -15922,32 +15883,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/300173598",
-        "addr:city": "Puńsk",
-        "addr:city:simc": "0766251",
-        "addr:housenumber": "23",
-        "addr:postcode": "16-515",
-        "addr:street": "Adama Mickiewicza",
-        "addr:street:sym_ul": "12740",
-        "amenity": "townhall",
-        "building": "public",
-        "name": "Urząd Gminy w Puńsku",
-        "office": "government",
-        "source:addr": "punsk.e-mapa.net",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.1806938,
-          54.2518231
-        ]
-      },
-      "id": "way/300173598"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/300184010",
         "addr:city": "Nowe Miasto nad Wartą",
         "addr:housenumber": "14",
@@ -16248,6 +16183,31 @@
         ]
       },
       "id": "way/301588182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/301697537",
+        "addr:city": "Siennica",
+        "addr:city:simc": "0687273",
+        "addr:housenumber": "1",
+        "addr:street": "Kołbielska",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Urząd Gminy Siennica",
+        "opening_hours": "Mo 08:00-17:00; Tu-Th 08:00-16:00; Fr 08:00-15:00",
+        "source:addr": "siennica.e-mapa.net",
+        "website": "http://siennica.samorzad.pl/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6200201,
+          52.0907718
+        ]
+      },
+      "id": "way/301697537"
     },
     {
       "type": "Feature",
@@ -19019,35 +18979,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/341906579",
-        "addr:city:simc": "0385313",
-        "addr:housenumber": "76",
-        "addr:place": "Łaziska",
-        "addr:postcode": "24-335",
-        "amenity": "townhall",
-        "building": "yes",
-        "building:levels": "2",
-        "name": "Urząd Gminy",
-        "office": "administrative",
-        "phone": "+48 81 827 69 20",
-        "source:addr": "laziska.e-mapa.net",
-        "website": "http://www.gminalaziska.pl/",
-        "wikidata": "Q2189344",
-        "wikipedia": "pl:Łaziska (gmina)",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.8768145,
-          51.1406282
-        ]
-      },
-      "id": "way/341906579"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/342257523",
         "addr:city": "Branice",
         "addr:housenumber": "3",
@@ -19455,6 +19386,24 @@
         ]
       },
       "id": "way/350213990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/351697516",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9693742,
+          50.85159
+        ]
+      },
+      "id": "way/351697516"
     },
     {
       "type": "Feature",
@@ -20161,24 +20110,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/361350187",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Urząd Gminy",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.8391842,
-          50.9119596
-        ]
-      },
-      "id": "way/361350187"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/361896459",
         "addr:city": "Siennica Różana",
         "addr:housenumber": "265A",
@@ -20447,7 +20378,7 @@
         "addr:postcode": "21-132",
         "addr:street": "Lubartowska",
         "amenity": "townhall",
-        "name": "Urząd Gminy",
+        "name": "Urząd Gminy Kamionka",
         "phone": "+48818527039",
         "source": "http://ump.waw.pl/ retrieved 12:29:37 03/17/09 (UMP-Lublin/src/POI-Lublin.pnt-converted.txt)"
       },
@@ -22736,8 +22667,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.9630219,
-          51.6347582
+          17.9630263,
+          51.6347543
         ]
       },
       "id": "way/391820136"
@@ -25621,9 +25552,17 @@
       "type": "Feature",
       "properties": {
         "@id": "way/498258262",
+        "addr:city": "Latowicz",
+        "addr:city:simc": "0677636",
+        "addr:housenumber": "6",
+        "addr:postcode": "05-334",
+        "addr:street": "Rynek",
+        "addr:street:sym_ul": "19253",
         "amenity": "townhall",
         "building": "yes",
-        "name": "UG",
+        "name": "Urząd Gminy Latowicz",
+        "opening_hours": "Mo-Th 07:45-15:45; Tu 07:45-16:45; Fr 07:45-14:45",
+        "source:addr": "latowicz.e-mapa.net",
         "@geometry": "center"
       },
       "geometry": {
@@ -27430,9 +27369,14 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1316330572",
+        "addr:housenumber": "136",
+        "addr:place": "Słupia",
+        "addr:postcode": "96-128",
         "amenity": "townhall",
-        "name": "Urząd Gminy",
-        "office": "administrative"
+        "name": "Urząd Gminy Słupia",
+        "office": "administrative",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "website": "http://www.slupia.com.pl"
       },
       "geometry": {
         "type": "Point",
@@ -30170,6 +30114,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2105416296",
+        "addr:city": "Żelechów",
+        "addr:housenumber": "1",
+        "addr:postcode": "08-430",
+        "addr:street": "Rynek",
+        "amenity": "townhall",
+        "name": "Urząd Miejski w Żelechowie",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "source": "UMiG Żelechów"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.89537,
+          51.8093089
+        ]
+      },
+      "id": "node/2105416296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2107827020",
         "amenity": "townhall",
         "name": "Urząd Gminy w Strzegowie"
@@ -32173,6 +32139,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2597776964",
+        "addr:city": "Kowal",
+        "addr:housenumber": "24",
+        "addr:postcode": "87-820",
+        "addr:street": "Piwna",
+        "amenity": "townhall",
+        "name": "Urząd Miasta Kowal",
+        "opening_hours": "Mo-Fr 07:00-15:00; Tu 08:00-16:00",
+        "source:addr": "EMUiA@iMPA (mkowal.e-mapa.net)",
+        "website": "http://www.kowal.eu/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.15569,
+          52.53289
+        ]
+      },
+      "id": "node/2597776964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2597785622",
         "amenity": "townhall",
         "email": "um@miasteczko-slaskie.pl",
@@ -34040,6 +34029,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/3196423028",
+        "addr:city": "Sobolew",
+        "addr:housenumber": "1",
+        "addr:postcode": "08-460",
+        "addr:street": "Rynek",
+        "addr:street:sym_ul": "19253",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Sobolew",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "source:addr": "sobolew.e-mapa.net",
+        "website": "http://www.sobolew.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.66848,
+          51.74162
+        ]
+      },
+      "id": "node/3196423028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/3201943699",
         "addr:city": "Piszczac",
         "addr:housenumber": "8",
@@ -34467,15 +34480,21 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3377604007",
+        "addr:city": "Leśna Podlaska",
+        "addr:housenumber": "30",
+        "addr:postcode": "21-542",
+        "addr:street": "Bialska",
         "amenity": "townhall",
-        "name": "Urząd Gminy",
+        "name": "Urząd Gminy Leśna Podlaska",
+        "opening_hours": "Mo-Fr 07:15-15:15",
+        "source:addr": "lesnapodlaska.e-mapa.net",
         "website": "www.lesnapodlaska.pl"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.027955,
-          52.1338431
+          23.0280399,
+          52.1338831
         ]
       },
       "id": "node/3377604007"
@@ -40970,6 +40989,487 @@
         ]
       },
       "id": "node/5159496103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5164983941",
+        "addr:city": "Przytyk",
+        "addr:city:simc": "0634348",
+        "addr:housenumber": "57",
+        "addr:postcode": "26-650",
+        "addr:street": "Zachęta",
+        "addr:street:sym_ul": "25301",
+        "amenity": "townhall",
+        "email": "przytyk@przytyk.pl",
+        "name": "Urząd Gminy Przytyk",
+        "source:addr": "przytyk.e-mapa.net",
+        "website": "http://www.przytyk.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9055045,
+          51.4698657
+        ]
+      },
+      "id": "node/5164983941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5164983942",
+        "addr:housenumber": "7",
+        "addr:postcode": "08-480",
+        "addr:street": "Rynek",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Maciejowice",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "website": "http://www.maciejowice.pl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5539607,
+          51.6919843
+        ]
+      },
+      "id": "node/5164983942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5164983960",
+        "addr:housenumber": "57A",
+        "addr:place": "Trojanów",
+        "addr:postcode": "08-455",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Trojanów",
+        "opening_hours": "Mo-Fr 08:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8242764,
+          51.6945797
+        ]
+      },
+      "id": "node/5164983960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5165297395",
+        "addr:housenumber": "9",
+        "addr:place": "Dmosin",
+        "addr:postcode": "95-061",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Dmosin",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "website": "http://dmosin.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7532104,
+          51.9271046
+        ]
+      },
+      "id": "node/5165297395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5165370380",
+        "addr:city": "Kowal",
+        "addr:housenumber": "33",
+        "addr:postcode": "87-820",
+        "addr:street": "Piwna",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Kowal",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "website": "http://www.gminakowal.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1553781,
+          52.5327738
+        ]
+      },
+      "id": "node/5165370380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047635",
+        "addr:city": "Krasnopol",
+        "addr:city:simc": "0760886",
+        "addr:housenumber": "4",
+        "addr:postcode": "16-503",
+        "addr:street": "Wojska Polskiego",
+        "addr:street:sym_ul": "24628",
+        "amenity": "townhall",
+        "email": "ugkras@op.pl",
+        "fax": "+48 87 5164050",
+        "name": "Urząd Gminy Krasnopol",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "phone": "+48 87 5164010",
+        "source:addr": "krasnopol.e-mapa.net",
+        "website": "http://www.krasnopol.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2100549,
+          54.1166838
+        ]
+      },
+      "id": "node/5167047635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047660",
+        "addr:city": "Szypliszki",
+        "addr:housenumber": "21",
+        "addr:postcode": "16-411",
+        "addr:street": "Suwalska",
+        "amenity": "townhall",
+        "email": "ug_szypliszki@pro.onet.pl",
+        "name": "Urząd Gminy Szypliszki",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "phone": "+48 87 5659040",
+        "website": "http://www.szypliszki.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0742938,
+          54.251968
+        ]
+      },
+      "id": "node/5167047660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047662",
+        "addr:city": "Jeleniewo",
+        "addr:housenumber": "3",
+        "addr:postcode": "16-404",
+        "addr:street": "Słoneczna",
+        "amenity": "townhall",
+        "email": "ug_jeleniewo@pro.onet.pl",
+        "name": "Urząd Gminy Jeleniewo",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "phone": "+48 87 5683022",
+        "website": "http://www.jeleniewo.i-gmina.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9117736,
+          54.2056073
+        ]
+      },
+      "id": "node/5167047662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047663",
+        "addr:city": "Filipów",
+        "addr:housenumber": "2",
+        "addr:street": "Garbaska",
+        "amenity": "townhall",
+        "email": "sekretariat@filipow.pl",
+        "name": "Urząd Gminy Filipów",
+        "phone": "+48 87 5696081",
+        "website": "http://filipow.pl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6201114,
+          54.1788351
+        ]
+      },
+      "id": "node/5167047663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047665",
+        "addr:city": "Przerośl",
+        "addr:housenumber": "2",
+        "addr:postcode": "16-427",
+        "addr:street": "Rynek",
+        "amenity": "townhall",
+        "email": "sekretariat@przerosl.eu",
+        "name": "Urząd Gminy Przerośl",
+        "opening_hours": "Mo-Fr 07:15-15:15",
+        "phone": "+48 87 5691019",
+        "website": "http://www.przerosl.eu/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6552489,
+          54.2515171
+        ]
+      },
+      "id": "node/5167047665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047666",
+        "addr:city": "Rutka-Tartak",
+        "addr:housenumber": "13",
+        "addr:postcode": "16-406",
+        "addr:street": "3 Maja",
+        "amenity": "townhall",
+        "email": "sekretariat@ug.rutkatartak.wrotapodlasia.pl",
+        "name": "Urząd Gminy Rutka-Tartak",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "phone": "+48 87 5687256",
+        "website": "https://rutka-tartak.com.pl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9660429,
+          54.3264896
+        ]
+      },
+      "id": "node/5167047666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047667",
+        "addr:city": "Wiżajny",
+        "addr:housenumber": "1",
+        "addr:postcode": "16-407",
+        "addr:street": "Rynek",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Wiżajny",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "website": "http://www.wizajny.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8695993,
+          54.3679902
+        ]
+      },
+      "id": "node/5167047667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047668",
+        "addr:city": "Werbkowice",
+        "addr:housenumber": "1",
+        "addr:postcode": "22-550",
+        "addr:street": "Zamojska",
+        "amenity": "townhall",
+        "email": "ug@werbkowice.pl",
+        "name": "Urząd Gminy Werbkowice",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "source:addr": "werbkowice.e-mapa.net",
+        "website": "http://www.werbkowice.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7622868,
+          50.7538304
+        ]
+      },
+      "id": "node/5167047668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047669",
+        "addr:city": "Żółkiewka",
+        "addr:housenumber": "2",
+        "addr:postcode": "22-335",
+        "addr:street": "Hetmana Żółkiewskiego",
+        "amenity": "townhall",
+        "email": "sekretariat@zolkiewka.pl",
+        "name": "Urząd Gminy Żółkiewka",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "source:addr": "EMUiA@iMPA (zolkiewka.e-mapa.net)",
+        "website": "http://www.zolkiewka.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8391501,
+          50.9119335
+        ]
+      },
+      "id": "node/5167047669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047670",
+        "addr:city": "Bychawa",
+        "addr:housenumber": "1",
+        "addr:postcode": "23-100",
+        "addr:street": "Partyzantów",
+        "amenity": "townhall",
+        "name": "Urząd Miejski w Bychawie",
+        "opening_hours": "Mo 08:00-16:00; Tu-Fr 07:15-15:15",
+        "website": "http://www.bychawa.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5349019,
+          51.0143042
+        ]
+      },
+      "id": "node/5167047670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047671",
+        "addr:housenumber": "76",
+        "addr:place": "Łaziska",
+        "addr:postcode": "24-335",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Łaziska",
+        "office": "administrative",
+        "phone": "+48 81 827 69 20",
+        "website": "http://www.gminalaziska.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8768095,
+          51.1406279
+        ]
+      },
+      "id": "node/5167047671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047672",
+        "addr:city": "Puławy",
+        "addr:housenumber": "4",
+        "addr:postcode": "24-100",
+        "addr:street": "Dęblińska",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Puławy",
+        "opening_hours": "Mo-Fr 07:30-15:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.949057,
+          51.4280763
+        ]
+      },
+      "id": "node/5167047672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047673",
+        "addr:city": "Puławy",
+        "addr:housenumber": "5",
+        "addr:postcode": "24-100",
+        "addr:street": "Lubelska",
+        "amenity": "townhall",
+        "name": "Urząd Miasta Puławy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.972752,
+          51.4170149
+        ]
+      },
+      "id": "node/5167047673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167047674",
+        "addr:city": "Łuków",
+        "addr:housenumber": "12",
+        "addr:postcode": "21-400",
+        "addr:street": "Świderska",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Łuków",
+        "opening_hours": "Mo-Fr 07:30-15:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3852704,
+          51.9210747
+        ]
+      },
+      "id": "node/5167047674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167049271",
+        "addr:city": "Sejny",
+        "addr:housenumber": "25",
+        "addr:postcode": "16-500",
+        "addr:street": "Józefa Piłsudskiego",
+        "amenity": "townhall",
+        "email": "sejny@um.sejny.pl",
+        "fax": "+48 87 5162055",
+        "name": "Urząd Miasta Sejny",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "phone": "+48 87 5162073",
+        "website": "http://www.um.sejny.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3496553,
+          54.1065264
+        ]
+      },
+      "id": "node/5167049271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167049300",
+        "addr:city": "Sejny",
+        "addr:housenumber": "1",
+        "addr:postcode": "16-500",
+        "addr:street": "Jerzego Grodzińskiego",
+        "amenity": "townhall",
+        "email": "sekretariat@gmina.sejny.pl",
+        "fax": "+48 87 5162676",
+        "name": "Urząd Gminy Sejny",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "phone": "+48 87 5162045",
+        "website": "http://www.gmina.sejny.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3497676,
+          54.1030969
+        ]
+      },
+      "id": "node/5167049300"
     }
   ]
 }
