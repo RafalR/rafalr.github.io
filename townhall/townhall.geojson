@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-10-14T10:58:03Z",
+  "timestamp": "2017-10-20T22:16:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1662,6 +1662,8 @@
         "description": "Kompleks budynków został zbudowany jako siedziba dowództwa pruskiego garnizonu w Gdańsku. Składał się z pałacyku, budynku stajennego, niezachowanej do dziś oficyny i parku o powierzchni 1,8 ha.",
         "name": "Nowy Ratusz",
         "name:de": "Generalkommando",
+        "name:en": "New Town Hall",
+        "name:fi": "Kaupungintalo",
         "name:pl": "Nowy Ratusz",
         "old_name": "Żak",
         "operator": "Rada Miasta Gdańska",
@@ -2094,8 +2096,12 @@
         "alt_name": "Ratusz",
         "amenity": "townhall",
         "building": "public",
+        "email": "poczta@wronki.pl",
+        "fax": "+4867 25 45 328",
         "name": "Ratusz Wronki;Urząd Miasta i Gminy Wronki",
+        "opening_hours": "Mo 8:00-16:00; Tu-Fr 7:30-15:30",
         "operator": "Gmina Wronki",
+        "phone": "+4867 25 45 300",
         "source:addr": "wronki.e-mapa.net",
         "website": "http://www.wronki.pl",
         "@geometry": "center"
@@ -3038,9 +3044,11 @@
       "properties": {
         "@id": "way/130658773",
         "addr:city": "Skoczów",
+        "addr:city:simc": "0925198",
         "addr:housenumber": "1",
         "addr:postcode": "43-430",
         "addr:street": "Rynek",
+        "addr:street:sym_ul": "19252",
         "amenity": "townhall",
         "building": "yes",
         "description": "Ratusz w Skoczowie",
@@ -3049,6 +3057,7 @@
         "historic": "yes",
         "name": "Ratusz w Skoczowie",
         "ref:nid": "A/322/78",
+        "source:addr": "emuia.gugik.gov.pl",
         "wikidata": "Q9304559",
         "wikipedia": "pl:Ratusz w Skoczowie",
         "@geometry": "center"
@@ -3066,6 +3075,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/130658777",
+        "addr:city": "Goleszów",
+        "addr:housenumber": "5",
+        "addr:postcode": "43-440",
+        "addr:street": "1 Maja",
         "amenity": "townhall",
         "building": "office",
         "email": "urzad@goleszow.pl",
@@ -3079,8 +3092,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7388632,
-          49.7363547
+          18.7388638,
+          49.7363562
         ]
       },
       "id": "way/130658777"
@@ -3759,7 +3772,12 @@
         "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "townhall",
+        "heritage": "2",
         "name": "Ratusz",
+        "ref:nid": "A-1268; A=1040",
+        "start_date": "1637",
+        "wikidata": "Q9304541",
+        "wikipedia": "pl:Ratusz w Rzeszowie",
         "@geometry": "center"
       },
       "geometry": {
@@ -3780,7 +3798,10 @@
         "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "civic",
+        "heritage": "2",
         "name": "Urząd Miasta Rzeszowa",
+        "ref:nid": "A-1053",
+        "start_date": "before 1700",
         "@geometry": "center"
       },
       "geometry": {
@@ -3801,6 +3822,7 @@
         "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "civic",
+        "heritage": "2",
         "name": "Urząd Miasta Rzeszowa",
         "@geometry": "center"
       },
@@ -8718,9 +8740,12 @@
         "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "civic",
+        "heritage": "2",
         "name": "Urząd Miejski",
         "office": "government",
+        "ref:nid": "1250; A-950",
         "source:addr": "EMUiA (glogowmalopolski.e-mapa.net)",
+        "start_date": "after 1750",
         "website": "http://um.glogow-mlp.pl",
         "@geometry": "center"
       },
@@ -9691,8 +9716,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.8657411,
-          52.9246002
+          14.8657481,
+          52.9246064
         ]
       },
       "id": "way/233553100"
@@ -10088,8 +10113,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.437588,
-          50.295293
+          21.4375878,
+          50.2952931
         ]
       },
       "id": "way/237852006"
@@ -14924,6 +14949,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/290606843",
+        "addr:city": "Zawichost",
+        "addr:city:simc": "0981417",
+        "addr:housenumber": "50",
+        "addr:postcode": "27-630",
+        "addr:street": "Stefana Żeromskiego",
+        "addr:street:sym_ul": "26469",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Miasta i Gminy",
+        "source:addr": "zawichost.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8535516,
+          50.8078261
+        ]
+      },
+      "id": "way/290606843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/290696406",
         "addr:city": "Bogoria",
         "addr:housenumber": "13",
@@ -15570,7 +15620,7 @@
         "addr:city": "Szklarska Poręba",
         "addr:housenumber": "2",
         "addr:postcode": "58-580",
-        "addr:street": "Mariana Buczka",
+        "addr:street": "Granitowa",
         "amenity": "townhall",
         "building": "yes",
         "contact:email": "boi@szklarskaporeba.pl",
@@ -15607,8 +15657,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.7353587,
-          52.3978411
+          19.7353637,
+          52.3978437
         ]
       },
       "id": "way/298503564"
@@ -16711,15 +16761,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/306084613",
+        "addr:city": "Raszków",
+        "addr:housenumber": "32",
+        "addr:postcode": "63-440",
+        "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "civic",
+        "source:addr": "raszkow.e-mapa.net",
         "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7277064,
-          51.7182164
+          17.7277495,
+          51.7182167
         ]
       },
       "id": "way/306084613"
@@ -17811,6 +17866,30 @@
         ]
       },
       "id": "way/324750965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/325246491",
+        "addr:city": "Kętrzyn",
+        "addr:city:simc": "0964710",
+        "addr:housenumber": "11",
+        "addr:street": "Wojska Polskiego",
+        "addr:street:sym_ul": "24628",
+        "amenity": "townhall",
+        "building": "civic",
+        "name": "Urząd miasta",
+        "source:addr": "emuia.gugik.gov.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3707701,
+          54.0818074
+        ]
+      },
+      "id": "way/325246491"
     },
     {
       "type": "Feature",
@@ -22249,30 +22328,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/391452196",
-        "addr:city": "Miłosław",
-        "addr:housenumber": "19",
-        "addr:postcode": "62-320",
-        "addr:street": "Wrzesińska",
-        "amenity": "townhall",
-        "contact:website": "http://www.miloslaw.info.pl",
-        "name": "Urząd Gminy Miłosław",
-        "opening_hours": "Mo 08:00-16:00; Tu-Fr 07:30-15:30",
-        "source:addr": "EMUiA (miloslaw.e-mapa.net)",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.4873273,
-          52.2054311
-        ]
-      },
-      "id": "way/391452196"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/391452197",
         "addr:city": "Witkowo",
         "addr:housenumber": "1",
@@ -22539,8 +22594,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.0704862,
-          51.8834999
+          17.0705652,
+          51.8835037
         ]
       },
       "id": "way/391675825"
@@ -25782,6 +25837,31 @@
         ]
       },
       "id": "way/530994547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/533063569",
+        "addr:city": "Miłosław",
+        "addr:housenumber": "19",
+        "addr:postcode": "62-320",
+        "addr:street": "Wrzesińska",
+        "amenity": "townhall",
+        "building": "yes",
+        "contact:website": "http://www.miloslaw.info.pl",
+        "name": "Urząd Gminy Miłosław",
+        "opening_hours": "Mo 08:00-16:00; Tu-Fr 07:30-15:30",
+        "source:addr": "EMUiA (miloslaw.e-mapa.net)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4871489,
+          52.2053428
+        ]
+      },
+      "id": "way/533063569"
     },
     {
       "type": "Feature",
@@ -36972,22 +37052,6 @@
         ]
       },
       "id": "node/4123168410"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4138339417",
-        "amenity": "townhall",
-        "name": "Urząd Gminy Krokowa"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.1579098,
-          54.7784981
-        ]
-      },
-      "id": "node/4138339417"
     },
     {
       "type": "Feature",
