@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-10-20T22:16:02Z",
+  "timestamp": "2017-10-21T16:04:02Z",
   "features": [
     {
       "type": "Feature",
@@ -23938,6 +23938,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/418195209",
+        "addr:city": "Secemin",
+        "addr:housenumber": "2",
+        "addr:postcode": "29-145",
+        "addr:street": "Struga",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8335538,
+          50.7645361
+        ]
+      },
+      "id": "way/418195209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/419442079",
         "amenity": "townhall",
         "building": "yes",
@@ -32936,6 +32958,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2926829091",
+        "addr:housenumber": "33",
+        "addr:place": "Nowinka",
+        "addr:postcode": "16-304",
+        "amenity": "townhall",
+        "email": "ugnowinka@poczta.onet.pl",
+        "name": "Urząd Gminy Nowinka",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "phone": "+48 87 6438030",
+        "source:addr": "nowinka.e-mapa.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.97831,
+          53.93521
+        ]
+      },
+      "id": "node/2926829091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2929693403",
         "addr:city": "Zawady",
         "addr:housenumber": "6",
@@ -33873,6 +33918,30 @@
         ]
       },
       "id": "node/3113276789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3132301057",
+        "addr:housenumber": "53",
+        "addr:place": "Płaska",
+        "addr:postcode": "16-326",
+        "amenity": "townhall",
+        "email": "plaska@home.pl",
+        "fax": "+48 87 6439081",
+        "name": "Urząd Gminy Płaska",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "phone": "+48 87 6439080",
+        "source:addr": "plaska.e-mapa.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.26727,
+          53.90564
+        ]
+      },
+      "id": "node/3132301057"
     },
     {
       "type": "Feature",
@@ -41534,6 +41603,79 @@
         ]
       },
       "id": "node/5167049300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179433772",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Wilczyce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6577728,
+          50.7461867
+        ]
+      },
+      "id": "node/5179433772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179474366",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Łączna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8011903,
+          50.9927722
+        ]
+      },
+      "id": "node/5179474366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179508848",
+        "addr:city": "Lipsk",
+        "addr:housenumber": "4",
+        "addr:postcode": "16-315",
+        "addr:street": "Żłobikowskiego",
+        "amenity": "townhall",
+        "name": "Urząd Miasta Lipsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4016533,
+          53.7317511
+        ]
+      },
+      "id": "node/5179508848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179508883",
+        "addr:housenumber": "74A",
+        "addr:place": "Giby",
+        "addr:postcode": "16-506",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Giby",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "website": "http://www.ug.giby.wrotapodlasia.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3543615,
+          54.0402276
+        ]
+      },
+      "id": "node/5179508883"
     }
   ]
 }
