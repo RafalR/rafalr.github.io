@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-10-21T16:04:02Z",
+  "timestamp": "2017-10-23T19:14:02Z",
   "features": [
     {
       "type": "Feature",
@@ -6710,8 +6710,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4378948,
-          52.0564559
+          20.4378856,
+          52.0564631
         ]
       },
       "id": "way/196601099"
@@ -32926,6 +32926,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2910523458",
+        "addr:city": "Białowieża",
+        "addr:housenumber": "1",
+        "addr:postcode": "17-230",
+        "addr:street": "Sportowa",
+        "amenity": "townhall",
+        "fax": "+48 85 6812487",
+        "name": "Urząd Gminy Białowieża",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "phone": "+48 85 6812487",
+        "source:addr": "bialowieza.e-mapa.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.85224,
+          52.70268
+        ]
+      },
+      "id": "node/2910523458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2921329712",
         "amenity": "townhall"
       },
@@ -32977,6 +33001,29 @@
         ]
       },
       "id": "node/2926829091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2927522168",
+        "addr:city": "Sztabin",
+        "addr:housenumber": "53",
+        "addr:postcode": "16-310",
+        "addr:street": "Augustowska",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Sztabin",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "source:addr": "sztabin.e-mapa.net",
+        "website": "http://www.sztabin.ug.gov.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.09452,
+          53.68722
+        ]
+      },
+      "id": "node/2927522168"
     },
     {
       "type": "Feature",
@@ -34402,6 +34449,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/3268361088",
+        "addr:city": "Sidra",
+        "addr:city:simc": "0039284",
+        "addr:housenumber": "5",
+        "addr:street": "Rynek",
+        "amenity": "townhall",
+        "email": "ug_sidra@zetobi.com.pl",
+        "name": "Urząd Gminy Sidra",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "source:addr": "sidra.e-mapa.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.44846,
+          53.55295
+        ]
+      },
+      "id": "node/3268361088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/3281907622",
         "amenity": "townhall"
       },
@@ -34926,6 +34996,31 @@
         ]
       },
       "id": "node/3452196008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3480308170",
+        "addr:city": "Nowy Dwór",
+        "addr:city:simc": "0037612",
+        "addr:housenumber": "21",
+        "addr:postcode": "16-205",
+        "addr:street": "Plac Rynkowy",
+        "addr:street:sym_ul": "39088",
+        "amenity": "townhall",
+        "email": "ugnd@poczta.onet.pl",
+        "name": "Urząd Gminy Nowy Dwór",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "source:addr": "nowydwor.e-mapa.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.54304,
+          53.63105
+        ]
+      },
+      "id": "node/3480308170"
     },
     {
       "type": "Feature",
@@ -35936,6 +36031,33 @@
         ]
       },
       "id": "node/3819328160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3826165565",
+        "addr:city": "Kuźnica",
+        "addr:city:simc": "0033293",
+        "addr:housenumber": "1",
+        "addr:postcode": "16-123",
+        "addr:street": "Plac 1000-lecia Państwa Polskiego",
+        "addr:street:sym_ul": "30977",
+        "amenity": "townhall",
+        "email": "sekretariat@kuznica.ug.gov.pl",
+        "fax": "+48 85 7229280",
+        "name": "Urząd Gminy Kuźnica",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "phone": "+48 85 7229281",
+        "source:addr": "emuia.gugik.gov.pl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6468404,
+          53.5137965
+        ]
+      },
+      "id": "node/3826165565"
     },
     {
       "type": "Feature",
@@ -38095,13 +38217,20 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4493904687",
+        "addr:city": "Zapolice",
+        "addr:housenumber": "5",
+        "addr:postcode": "98-161",
+        "addr:street": "Plac Strażacki",
         "amenity": "townhall",
-        "name": "Urząd Gminy"
+        "email": "urzad@zapolice.pl",
+        "name": "Urząd Gminy Zapolice",
+        "phone": "+48 43 823 19 82",
+        "website": "http://www.zapolice.pl"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.8846003,
+          18.8846034,
           51.5415079
         ]
       },
@@ -41676,6 +41805,96 @@
         ]
       },
       "id": "node/5179508883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184516112",
+        "addr:city": "Suchowola",
+        "addr:city:simc": "0041312",
+        "addr:housenumber": "5",
+        "addr:postcode": "16-150",
+        "addr:street": "Plac Tadeusza Kościuszki",
+        "addr:street:sym_ul": "33975",
+        "amenity": "townhall",
+        "email": "sekretariat@suchowola.pl",
+        "name": "Urząd Miejski w Suchowoli",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "source:addr": "emuia.gugik.gov.pl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1064129,
+          53.5790916
+        ]
+      },
+      "id": "node/5184516112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184522041",
+        "addr:city": "Dąbrowa Białostocka",
+        "addr:housenumber": "1",
+        "addr:postcode": "16-200",
+        "addr:street": "Solidarności",
+        "amenity": "townhall",
+        "name": "Urząd Miejski w Dąbrowie Białostockiej",
+        "phone": "+48 85 7121100",
+        "website": "http://www.dabrowa-bial.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3457865,
+          53.6548288
+        ]
+      },
+      "id": "node/5184522041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184522050",
+        "addr:city": "Augustów",
+        "addr:housenumber": "60",
+        "addr:postcode": "16-300",
+        "addr:street": "3 Maja",
+        "amenity": "townhall",
+        "name": "Urząd Miejski w Augustowie",
+        "opening_hours": "Mo-Fr 07:30-15:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9898542,
+          53.8401637
+        ]
+      },
+      "id": "node/5184522050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184522051",
+        "addr:city": "Augustów",
+        "addr:housenumber": "51",
+        "addr:postcode": "16-300",
+        "addr:street": "Wojska Polskiego",
+        "amenity": "townhall",
+        "email": "gmina-augustow@gmina-augustow.eu",
+        "name": "Urząd Gminy Augustów",
+        "opening_hours": "Mo-Fr 07:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9740635,
+          53.8385837
+        ]
+      },
+      "id": "node/5184522051"
     }
   ]
 }
