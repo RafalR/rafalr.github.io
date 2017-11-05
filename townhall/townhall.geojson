@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-10-23T19:14:02Z",
+  "timestamp": "2017-11-05T09:14:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1068,13 +1068,14 @@
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Miasta",
+        "source:geometry": "geoportal.gov.pl:BDOT",
         "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.1989917,
-          51.4988139
+          15.199001,
+          51.4988131
         ]
       },
       "id": "way/52073453"
@@ -1321,8 +1322,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.0894676,
-          52.2472166
+          17.0894644,
+          52.2472231
         ]
       },
       "id": "way/68506080"
@@ -2109,8 +2110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3803516,
-          52.7081672
+          16.3803569,
+          52.7081675
         ]
       },
       "id": "way/104140826"
@@ -3065,8 +3066,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7879116,
-          49.8002838
+          18.7879014,
+          49.8002781
         ]
       },
       "id": "way/130658773"
@@ -5847,8 +5848,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8494486,
-          52.2462767
+          16.8494369,
+          52.2461723
         ]
       },
       "id": "way/179736736"
@@ -6389,8 +6390,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.107625,
-          51.9154833
+          18.1076176,
+          51.9154818
         ]
       },
       "id": "way/189055532"
@@ -6997,8 +6998,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.918645,
-          52.9953886
+          16.9186709,
+          52.9953637
         ]
       },
       "id": "way/199729151"
@@ -7973,7 +7974,7 @@
         "addr:housename": "Urząd Gminy Dębnica Kaszubska",
         "addr:housenumber": "16A",
         "addr:postcode": "76-248",
-        "addr:street": "Zjednoczenia",
+        "addr:street": "Księdza Antoniego Kani",
         "amenity": "townhall",
         "building": "public",
         "name": "Urząd Gminy Dębnica Kaszubska",
@@ -8794,8 +8795,12 @@
         "addr:street:sym_ul": "19253",
         "amenity": "townhall",
         "building": "public",
+        "historic": "building",
         "name": "Ratusz Miejski",
         "source:addr": "osnolubuskie.e-mapa.net",
+        "tourism": "attraction",
+        "wikidata": "Q16595201",
+        "wikipedia": "pl:Ratusz w Ośnie Lubuskim",
         "@geometry": "center"
       },
       "geometry": {
@@ -10842,8 +10847,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.8003832,
-          51.6557102
+          17.8004203,
+          51.6556815
         ]
       },
       "id": "way/243859861"
@@ -11432,8 +11437,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.0119819,
-          51.5307699
+          20.0119712,
+          51.5307824
         ]
       },
       "id": "way/251786491"
@@ -11457,8 +11462,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.0115991,
-          51.5305906
+          20.011596,
+          51.5306067
         ]
       },
       "id": "way/251786492"
@@ -11481,8 +11486,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.0116392,
-          51.5309759
+          20.0116535,
+          51.5309911
         ]
       },
       "id": "way/251786494"
@@ -11506,8 +11511,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.0115879,
-          51.5307855
+          20.0115945,
+          51.5307783
         ]
       },
       "id": "way/251786496"
@@ -13238,6 +13243,29 @@
         ]
       },
       "id": "way/266312256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/266468509",
+        "addr:city": "Lwówek",
+        "addr:housenumber": "2",
+        "addr:postcode": "64-310",
+        "addr:street": "Ratuszowa",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Miasta i Gminy",
+        "source:addr": "lwowek.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1816777,
+          52.4484776
+        ]
+      },
+      "id": "way/266468509"
     },
     {
       "type": "Feature",
@@ -15786,9 +15814,13 @@
         "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "yes",
+        "building:colour": "#FFFF99",
+        "building:levels": "2",
         "internet_access": "wlan",
         "internet_access:fee": "no",
         "name": "Ratusz",
+        "roof:colour": "red",
+        "roof:levels": "1.5",
         "source": "trzebiatow.e-mapa.net",
         "start_date": "1700",
         "tourism": "attraction",
@@ -17683,8 +17715,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.1879782,
-          51.7824823
+          21.1879865,
+          51.7824713
         ]
       },
       "id": "way/320199649"
@@ -19956,8 +19988,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.0645781,
-          51.9868643
+          17.0645504,
+          51.9868696
         ]
       },
       "id": "way/358733255"
@@ -20360,6 +20392,32 @@
         ]
       },
       "id": "way/362483291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/362561806",
+        "addr:city": "Murowana Goślina",
+        "addr:housenumber": "9",
+        "addr:postcode": "62-095",
+        "addr:street": "Plac Powstańców Wielkopolskich",
+        "amenity": "townhall",
+        "building": "yes",
+        "description": "Urząd Miasta i Gminy - Budynek A; Siedziba Urzędu; Siedziba Burmistrza Murowanej Gośliny; Urząd Stanu Cywilnego.",
+        "name": "Urząd Miasta i Gminy Murowana Goślina",
+        "phone": "+48 61 8923 600",
+        "source:addr": "EMUiA (murowanagoslina.e-mapa.net)",
+        "website": "http://www.murowana-goslina.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0108021,
+          52.5757354
+        ]
+      },
+      "id": "way/362561806"
     },
     {
       "type": "Feature",
@@ -21130,8 +21188,14 @@
       "type": "Feature",
       "properties": {
         "@id": "way/369069620",
+        "addr:housenumber": "71",
+        "addr:place": "Maszewo",
+        "addr:postcode": "66-614",
         "amenity": "townhall",
         "building": "yes",
+        "name": "Urząd Gminy Maszewo",
+        "phone": "+48683831321",
+        "source:addr": "maszewokrosnienski.e-mapa.net",
         "@geometry": "center"
       },
       "geometry": {
@@ -21533,15 +21597,15 @@
         "addr:street:sym_ul": "06485",
         "amenity": "townhall",
         "building": "yes",
-        "name": "Ratusz, Urząd Miasta",
+        "name": "Urząd Miasta",
         "source:addr": "emuia.gugik.gov.pl",
         "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6100964,
-          53.1864224
+          18.6100765,
+          53.1864225
         ]
       },
       "id": "way/376696983"
@@ -22569,8 +22633,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8429338,
-          51.8594159
+          16.842915,
+          51.8594331
         ]
       },
       "id": "way/391675824"
@@ -23492,7 +23556,7 @@
         "type": "Point",
         "coordinates": [
           16.5262214,
-          52.2222333
+          52.2222332
         ]
       },
       "id": "way/392706301"
@@ -23886,6 +23950,31 @@
         ]
       },
       "id": "way/404804789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/410921244",
+        "addr:city:simc": "0020066",
+        "addr:housenumber": "55",
+        "addr:place": "Sosnówka",
+        "addr:postcode": "21-518",
+        "amenity": "townhall",
+        "building": "public",
+        "email": "gmina@sosnowka.pl",
+        "name": "Urząd Gminy Sosnówka",
+        "source:addr": "sosnowka.e-mapa.net",
+        "website": "http://www.sosnowka.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.338349,
+          51.7496436
+        ]
+      },
+      "id": "way/410921244"
     },
     {
       "type": "Feature",
@@ -25902,6 +25991,29 @@
         ]
       },
       "id": "node/534214276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/537008453",
+        "addr:city": "Nakło nad Notecią",
+        "addr:housenumber": "7",
+        "addr:postcode": "89-100",
+        "addr:street": "Księdza Piotra Skargi",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Miasta i Gminy",
+        "website": "http://www.naklo.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6039625,
+          53.1394669
+        ]
+      },
+      "id": "way/537008453"
     },
     {
       "type": "Feature",
@@ -28864,29 +28976,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1748538100",
-        "addr:city": "Murowana Goślina",
-        "addr:housenumber": "9",
-        "addr:postcode": "62-095",
-        "addr:street": "Plac Powstańców Wielkopolskich",
-        "amenity": "townhall",
-        "description": "Urząd Miasta i Gminy - Budynek A; Siedziba Urzędu; Siedziba Burmistrza Murowanej Gośliny; Urząd Stanu Cywilnego.",
-        "name": "Urząd Miasta i Gminy Murowana Goślina",
-        "phone": "+48 61 8923 600",
-        "website": "http://www.murowana-goslina.pl"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.0106505,
-          52.5757263
-        ]
-      },
-      "id": "node/1748538100"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1754603429",
         "amenity": "townhall",
         "name": "Gmina Gózd"
@@ -31189,25 +31278,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2327425129",
-        "addr:city": "Lwówek",
-        "addr:postcode": "64-310",
-        "addr:street": "Ratuszowa",
-        "amenity": "townhall",
-        "name": "Urząd Miasta i Gminy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.1816327,
-          52.448554
-        ]
-      },
-      "id": "node/2327425129"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2337989972",
         "addr:city": "Goraj",
         "addr:housenumber": "1",
@@ -32108,27 +32178,6 @@
         ]
       },
       "id": "node/2561304089"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2563477420",
-        "addr:city": "Nakło nad Notecią",
-        "addr:housenumber": "7",
-        "addr:postcode": "89-100",
-        "addr:street": "Księdza Piotra Skargi",
-        "amenity": "townhall",
-        "name": "Urząd Miasta i Gminy",
-        "website": "http://www.naklo.pl"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.6039505,
-          53.13945
-        ]
-      },
-      "id": "node/2563477420"
     },
     {
       "type": "Feature",
@@ -33388,7 +33437,7 @@
         "addr:postcode": "08-210",
         "addr:street": "3 Maja",
         "amenity": "townhall",
-        "name": "Urząd Gminy"
+        "name": "Urząd Gminy Platerów"
       },
       "geometry": {
         "type": "Point",
@@ -33722,6 +33771,31 @@
         ]
       },
       "id": "node/3048041711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3051149816",
+        "addr:city": "Brzuze",
+        "addr:city:simc": "0859521",
+        "addr:housenumber": "62",
+        "addr:place": "Brzuze",
+        "addr:postcode": "87-517",
+        "amenity": "townhall",
+        "email": "gmina@brzuze.pl",
+        "name": "Urząd Gminy Brzuze",
+        "phone": "54 270 11 23",
+        "source:addr": "brzuze.e-mapa.net",
+        "website": "www.brzuze.pl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.26204,
+          53.05417
+        ]
+      },
+      "id": "node/3051149816"
     },
     {
       "type": "Feature",
@@ -34548,29 +34622,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3367095822",
-        "addr:city:simc": "0020066",
-        "addr:housenumber": "55",
-        "addr:place": "Sosnówka",
-        "addr:postcode": "21-518",
-        "amenity": "townhall",
-        "email": "gmina@sosnowka.pl",
-        "name": "Urząd Gminy Sosnówka",
-        "source:addr": "sosnowka.e-mapa.net",
-        "website": "http://www.sosnowka.pl"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.33817,
-          51.74972
-        ]
-      },
-      "id": "node/3367095822"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3368990000",
         "addr:city": "Adamów",
         "addr:housenumber": "5",
@@ -35330,23 +35381,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3666881472",
-        "amenity": "townhall",
-        "layer": "-1",
-        "name": "Punkt obsługi pasażera BKM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.1631666,
-          53.134913
-        ]
-      },
-      "id": "node/3666881472"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3674009839",
         "addr:city": "Boniewo",
         "addr:city:simc": "0858697",
@@ -35544,8 +35578,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.540822,
-          53.437123
+          15.5408327,
+          53.4371662
         ]
       },
       "id": "node/3692905725"
@@ -39178,7 +39212,7 @@
         "amenity": "townhall",
         "email": "ug@nurzec-stacja.eu",
         "fax": "+48 85 657 50 63",
-        "name": "Urząd Gminy",
+        "name": "Urząd Gminy Nurzec Stacja",
         "phone": "+48 85 657 50 78",
         "website": "http://ug.nurzec.wrotapodlasia.pl/"
       },
@@ -41895,6 +41929,57 @@
         ]
       },
       "id": "node/5184522051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5195688395",
+        "amenity": "townhall",
+        "name": "Urząd Miasta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0553314,
+          54.2581543
+        ]
+      },
+      "id": "node/5195688395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5195714486",
+        "addr:housenumber": "14",
+        "addr:place": "Godkowo",
+        "addr:postcode": "14-407",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Godkowo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9066028,
+          54.0795145
+        ]
+      },
+      "id": "node/5195714486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5203888016",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Słupia Konecka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.140198,
+          51.0124498
+        ]
+      },
+      "id": "node/5203888016"
     }
   ]
 }
