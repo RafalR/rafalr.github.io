@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-11-05T09:14:02Z",
+  "timestamp": "2017-11-12T20:51:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1624,6 +1624,31 @@
         ]
       },
       "id": "way/88520891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/90582803",
+        "addr:city": "Włoszczowa",
+        "addr:city:simc": "0948472",
+        "addr:housenumber": "10",
+        "addr:postcode": "29-100",
+        "addr:street": "Wiśniowa",
+        "addr:street:sym_ul": "24412",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Starostwo Powiatowe",
+        "source:addr": "wloszczowa.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9750572,
+          50.8496204
+        ]
+      },
+      "id": "way/90582803"
     },
     {
       "type": "Feature",
@@ -3733,8 +3758,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.5337561,
-          50.9329625
+          18.5337671,
+          50.9329644
         ]
       },
       "id": "way/149705341"
@@ -17958,6 +17983,7 @@
         "addr:street": "Staromiejska",
         "amenity": "townhall",
         "building": "yes",
+        "image": "https://s26.postimg.org/p8tbz0tzd/IMG_2512.jpg",
         "name": "Urząd Miejski w Opocznie",
         "@geometry": "center"
       },
@@ -26018,6 +26044,72 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/538477892",
+        "addr:city": "Radzanowo",
+        "addr:housenumber": "32",
+        "addr:postcode": "09-451",
+        "addr:street": "Płocka",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy Radzanowo",
+        "phone": "+48 24 261 34 97",
+        "website": "http://www.radzanowo.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8910552,
+          52.5734475
+        ]
+      },
+      "id": "way/538477892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/539318665",
+        "addr:city": "Radzanów",
+        "addr:housenumber": "26",
+        "addr:postcode": "06-540",
+        "addr:street": "Plac Piłsudskiego",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy w Radzanowie",
+        "phone": "+48 23 679 80 33, +48 23 679 80 34, +48 23 679 80 35",
+        "website": "http://www.radzanow.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0923112,
+          52.9432018
+        ]
+      },
+      "id": "way/539318665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/539793229",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy Bytoń",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5932167,
+          52.5575937
+        ]
+      },
+      "id": "way/539793229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/559409292",
         "amenity": "townhall",
         "name": "Urząd Gminy Kęty",
@@ -26950,7 +27042,8 @@
       "properties": {
         "@id": "node/724485525",
         "amenity": "townhall",
-        "name": "Urząd Miasta i Gminy"
+        "name": "Urząd Miasta i Gminy Pilica",
+        "website": "http://www.pilica.pl/"
       },
       "geometry": {
         "type": "Point",
@@ -30250,9 +30343,21 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2085982595",
+        "addr:city": "Dubicze Cerkiewne",
+        "addr:city:simc": "0027915",
+        "addr:housenumber": "65",
+        "addr:postcode": "17-204",
+        "addr:street": "Główna",
+        "addr:street:sym_ul": "05635",
         "amenity": "townhall",
-        "name": "URZĄD GMINY DUBICZE CERKIEWNE",
-        "source": "dubicze-cerkiewne.pl"
+        "email": "ugczyze@ugczyze.pl",
+        "fax": "+48 85 6827980",
+        "name": "Urząd Gminy Dubicze Cerkiewne",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "phone": "+48 85 6827981",
+        "source": "dubicze-cerkiewne.pl",
+        "source:addr": "dubiczecerkiewne.e-mapa.net",
+        "website": "http://www.dubicze-cerkiewne.pl/"
       },
       "geometry": {
         "type": "Point",
@@ -34589,6 +34694,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/3313314477",
+        "addr:city": "Milejczyce",
+        "addr:city:simc": "0035330",
+        "addr:housenumber": "5",
+        "addr:street": "Szkolna",
+        "addr:street:sym_ul": "21970",
+        "amenity": "townhall",
+        "email": "gmina@milejczyce.pl",
+        "fax": "+48 85 6579083",
+        "name": "Urząd Gminy Milejczyce",
+        "phone": "+48 85 6579070",
+        "source:addr": "milejczyce.e-mapa.net",
+        "website": "http://www.milejczyce.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.13877,
+          52.52125
+        ]
+      },
+      "id": "node/3313314477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/3349117784",
         "amenity": "townhall",
         "name": "Starostwo Powiatowe w Świdniku"
@@ -34834,6 +34965,33 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/3380434361",
+        "addr:city": "Kleszczele",
+        "addr:city:simc": "0031727",
+        "addr:housenumber": "4",
+        "addr:postcode": "17-250",
+        "addr:street": "1 Maja",
+        "addr:street:sym_ul": "11926",
+        "amenity": "townhall",
+        "email": "kleszczeleum@fr.pl",
+        "name": "Urząd Miejski w Kleszczelach",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "phone": "+48 85 6818004",
+        "source:addr": "kleszczele.e-mapa.net",
+        "website": "http://www.kleszczele.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.32679,
+          52.57505
+        ]
+      },
+      "id": "node/3380434361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/3397723384",
         "addr:city": "Osiek",
         "addr:city:simc": "0168573",
@@ -34853,6 +35011,32 @@
         ]
       },
       "id": "node/3397723384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3404838523",
+        "addr:city": "Czeremcha",
+        "addr:city:simc": "0025810",
+        "addr:housenumber": "14",
+        "addr:postcode": "17-240",
+        "addr:street": "Stanisława Dubois",
+        "addr:street:sym_ul": "04337",
+        "amenity": "townhall",
+        "email": "ug_czeremcha@zetobi.com.pl",
+        "fax": "+48 85 6850400",
+        "name": "Urząd Gminy Czeremcha",
+        "phone": "+48 85 6850400",
+        "source:addr": "czeremcha.e-mapa.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.35006,
+          52.51712
+        ]
+      },
+      "id": "node/3404838523"
     },
     {
       "type": "Feature",
@@ -35113,6 +35297,30 @@
         ]
       },
       "id": "node/3497755381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3502644516",
+        "addr:city:simc": "0028234",
+        "addr:housenumber": "13",
+        "addr:place": "Dziadkowice",
+        "addr:postcode": "17-306",
+        "amenity": "townhall",
+        "email": "ugdziadkowice@post.pl",
+        "fax": "+48 85 6565904",
+        "name": "Urząd Gminy Dziadkowice",
+        "phone": "+48 85 6565900",
+        "source:addr": "dziadkowice.e-mapa.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.91316,
+          52.56462
+        ]
+      },
+      "id": "node/3502644516"
     },
     {
       "type": "Feature",
@@ -37048,7 +37256,9 @@
         "amenity": "townhall",
         "name": "Urząd Miasta Krakowa",
         "name:de": "Stadtamt der Stadt Krakau",
-        "name:pl": "Urząd Miasta Krakowa"
+        "name:en": "Kraków City Hall",
+        "name:pl": "Urząd Miasta Krakowa",
+        "name:zh": "克拉科夫市政廳"
       },
       "geometry": {
         "type": "Point",
@@ -41980,6 +42190,99 @@
         ]
       },
       "id": "node/5203888016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5211901605",
+        "addr:city": "Drohiczyn",
+        "addr:city:simc": "0922998",
+        "addr:housenumber": "5",
+        "addr:postcode": "17-312",
+        "addr:street": "Józefa Ignacego Kraszewskiego",
+        "addr:street:sym_ul": "09871",
+        "amenity": "townhall",
+        "email": "um@drohiczyn.pl",
+        "fax": "+48 85 6557080",
+        "name": "Urząd Miejski w Drohiczynie",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "phone": "+48 85 6565260",
+        "website": "http://www.drohiczyn.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6585159,
+          52.3974422
+        ]
+      },
+      "id": "node/5211901605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5211901608",
+        "addr:city": "Grodzisk",
+        "addr:city:simc": "0028553",
+        "addr:housenumber": "6",
+        "addr:postcode": "17-315",
+        "addr:street": "1 Maja",
+        "addr:street:sym_ul": "11926",
+        "amenity": "townhall",
+        "email": "ug@gminagrodzisk.pl",
+        "fax": "+48 85 6568040",
+        "name": "Urząd Gminy Grodzisk",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "phone": "+48 85 6568061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7356911,
+          52.5833184
+        ]
+      },
+      "id": "node/5211901608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5211901612",
+        "addr:city": "Boćki",
+        "addr:city:simc": "0024035",
+        "addr:housenumber": "3",
+        "addr:postcode": "17-111",
+        "addr:street": "Plac Armii Krajowej",
+        "amenity": "townhall",
+        "fax": "+48 85 7319612",
+        "name": "Urząd Gminy Boćki",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "phone": "+48 85 7319610",
+        "website": "http://www.gminabocki.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0436328,
+          52.650603
+        ]
+      },
+      "id": "node/5211901612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5213730621",
+        "amenity": "townhall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1121058,
+          51.9185139
+        ]
+      },
+      "id": "node/5213730621"
     }
   ]
 }
