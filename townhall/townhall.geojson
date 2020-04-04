@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2019-10-24T14:30:02Z",
+  "timestamp": "2020-04-04T21:55:02Z",
   "features": [
     {
       "type": "Feature",
@@ -300,36 +300,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "relation/4295157",
-        "addr:city": "Długołęka",
-        "addr:housenumber": "12",
-        "addr:postcode": "55-095",
-        "addr:street": "Robotnicza",
-        "amenity": "townhall",
-        "building": "yes",
-        "building:colour": "#F3EFE0",
-        "building:levels": "1",
-        "name": "Urząd Gminy Długołęka",
-        "phone": "71 323 02 03",
-        "roof:colour": "salmon",
-        "roof:shape": "flat",
-        "type": "multipolygon",
-        "website": "http://www.gmina.dlugoleka.pl/",
-        "wheelchair": "yes",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.200716,
-          51.1762329
-        ]
-      },
-      "id": "relation/4295157"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "relation/4523782",
         "addr:city": "Pleszew",
         "addr:housenumber": "1",
@@ -358,32 +328,6 @@
         ]
       },
       "id": "relation/4523782"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "relation/4716837",
-        "addr:city": "Jutrosin",
-        "addr:city:simc": "0954461",
-        "addr:housenumber": "26",
-        "addr:postcode": "63-930",
-        "addr:street": "Rynek",
-        "amenity": "townhall",
-        "building": "civic",
-        "name": "Ratusz",
-        "source:addr": "emuia.gugik.gov.pl",
-        "townhall:type": "city",
-        "type": "site",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.1693758,
-          51.6537517
-        ]
-      },
-      "id": "relation/4716837"
     },
     {
       "type": "Feature",
@@ -533,29 +477,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "relation/7861648",
-        "addr:city": "Leszno",
-        "addr:housenumber": "15",
-        "addr:postcode": "64-100",
-        "addr:street": "Kazimierza Karasia",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Urząd Miasta Leszna",
-        "type": "multipolygon",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.5707335,
-          51.849344
-        ]
-      },
-      "id": "relation/7861648"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "relation/8510245",
         "addr:city": "Konstancin-Jeziorna",
         "addr:housenumber": "77",
@@ -580,32 +501,6 @@
         ]
       },
       "id": "relation/8510245"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "relation/8647651",
-        "addr:city": "Piotrków Trybunalski",
-        "addr:city:simc": "0967430",
-        "addr:housenumber": "7",
-        "addr:postcode": "97-300",
-        "addr:street": "Jarosława Dąbrowskiego",
-        "addr:street:sym_ul": "03687",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Starostwo Powiatowe",
-        "source:addr": "mpiotrkowtrybunalski.e-mapa.net",
-        "type": "multipolygon",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.6870232,
-          51.4111877
-        ]
-      },
-      "id": "relation/8647651"
     },
     {
       "type": "Feature",
@@ -760,13 +655,15 @@
       "properties": {
         "@id": "way/28823435",
         "addr:city": "Warszawa",
-        "addr:housenumber": "32/34",
+        "addr:city:simc": "0918123",
+        "addr:housenumber": "43",
         "addr:postcode": "00-691",
-        "addr:street": "Poznańska",
+        "addr:street": "Nowogrodzka",
+        "addr:street:sym_ul": "14426",
         "amenity": "townhall",
-        "building": "public",
+        "building": "yes",
         "name": "Urząd Dzielnicy Śródmieście",
-        "source:addr": "survey",
+        "source:addr": "mapa.um.warszawa.pl",
         "@geometry": "center"
       },
       "geometry": {
@@ -822,8 +719,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.0169472,
-          52.2282331
+          21.0169945,
+          52.2282217
         ]
       },
       "id": "way/29975616"
@@ -1274,31 +1171,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/53789751",
-        "addr:city": "Lublin",
-        "addr:country": "PL",
-        "addr:housenumber": "27",
-        "addr:postcode": "20-020",
-        "addr:street": "Lipowa",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Miejskie Centrum Zarządzania Kryzysowego",
-        "operator": "Urząd Miasta",
-        "phone": "+48 81 5354676",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.5538433,
-          51.2420228
-        ]
-      },
-      "id": "way/53789751"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/53789815",
         "addr:city": "Lublin",
         "addr:street": "Stanisława Leszczyńskiego",
@@ -1481,9 +1353,12 @@
         "addr:street": "Plac Wolności",
         "amenity": "townhall",
         "building": "yes",
+        "description": "https://fotopolska.eu/7284,obiekt.html?map_z=18",
         "name": "Ratusz",
         "name:de": "Rathaus",
         "source:addr": "lubsko.e-mapa.net",
+        "url": "https://polska-org.pl/519190,Lubsko,Ratusz.html",
+        "website": "http://www.lwkz.pl/monument/show/id/619",
         "@geometry": "center"
       },
       "geometry": {
@@ -1565,8 +1440,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.341261,
-          51.0147485
+          15.3412685,
+          51.0147576
         ]
       },
       "id": "way/69715622"
@@ -1715,8 +1590,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.6033469,
-          52.5358231
+          17.6033393,
+          52.5358219
         ]
       },
       "id": "way/74178214"
@@ -1769,24 +1644,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/78445440",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Urząd Miejski",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.6026012,
-          52.5310382
-        ]
-      },
-      "id": "way/78445440"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/79642756",
         "addr:city": "Brody",
         "addr:housenumber": "2",
@@ -1794,7 +1651,7 @@
         "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "yes",
-        "name": "Urząd Gminy",
+        "name": "Urząd Gminy Brody",
         "operator": "Urząd Gminy Brody",
         "source": "image",
         "@geometry": "center"
@@ -1833,6 +1690,32 @@
         ]
       },
       "id": "way/79692097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79707696",
+        "addr:city": "Kraków",
+        "addr:country": "PL",
+        "addr:housenumber": "53",
+        "addr:postcode": "31-586",
+        "addr:street": "Centralna",
+        "amenity": "townhall",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Zarząd Dróg Miasta Krakowa",
+        "short_name": "ZDMK",
+        "website": "http://zdmk.krakow.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0078704,
+          50.0635125
+        ]
+      },
+      "id": "way/79707696"
     },
     {
       "type": "Feature",
@@ -1955,8 +1838,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6452714,
-          54.3524635
+          18.645273,
+          54.3524632
         ]
       },
       "id": "way/96143632"
@@ -2643,8 +2526,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.9467727,
-          49.7980241
+          18.9467766,
+          49.7980247
         ]
       },
       "id": "way/108156065"
@@ -2802,6 +2685,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/111458382",
+        "addr:city": "Jonkowo",
+        "addr:city:simc": "0477080",
+        "addr:housenumber": "2",
+        "addr:street": "Klonowa",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy w Jonkowie",
+        "source:addr": "jonkowo.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3111486,
+          53.8294949
+        ]
+      },
+      "id": "way/111458382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/112014861",
         "addr:city": "Ostrołęka",
         "addr:housenumber": "1",
@@ -2861,8 +2767,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.8931105,
-          52.2012145
+          20.8931396,
+          52.2012245
         ]
       },
       "id": "way/113458042"
@@ -2966,33 +2872,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/119157088",
-        "amenity": "townhall",
-        "building": "yes",
-        "building:colour": "#996666",
-        "building:material": "brick",
-        "height": "12",
-        "heritage": "2",
-        "heritage:operator": "nid",
-        "name": "Ratusz",
-        "name:de": "Rathaus",
-        "name:pl": "Ratusz",
-        "ref:nid": "A.740",
-        "roof:shape": "flat",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.7494036,
-          50.6793669
-        ]
-      },
-      "id": "way/119157088"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/119157720",
         "addr:city": "Sandomierz",
         "addr:city:simc": "0980926",
@@ -3043,6 +2922,7 @@
       "properties": {
         "@id": "way/120446306",
         "addr:city": "Wolsztyn",
+        "addr:city:simc": "0988632",
         "addr:housenumber": "1",
         "addr:postcode": "64-200",
         "addr:street": "Rynek",
@@ -3256,8 +3136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.2385377,
-          52.3443326
+          21.2385351,
+          52.3443472
         ]
       },
       "id": "way/125522619"
@@ -3748,9 +3628,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/135195546",
-        "addr:housenumber": "112a",
-        "addr:place": "Harasiuki",
+        "addr:city": "Harasiuki",
+        "addr:housenumber": "11",
         "addr:postcode": "37-413",
+        "addr:street": "Długa",
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Gminy",
@@ -3760,8 +3641,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.4759984,
-          50.4748314
+          22.4759096,
+          50.4748278
         ]
       },
       "id": "way/135195546"
@@ -3890,8 +3771,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.3302061,
-          49.4693996
+          22.3302182,
+          49.4694016
         ]
       },
       "id": "way/137775622"
@@ -4437,8 +4318,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.7839716,
-          53.9887483
+          22.7839881,
+          53.9887441
         ]
       },
       "id": "way/150200378"
@@ -4459,8 +4340,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.3958014,
-          50.1415706
+          19.3957598,
+          50.1415994
         ]
       },
       "id": "way/151224102"
@@ -4614,7 +4495,7 @@
         "3dr:height2": "3",
         "3dr:type": "2.3",
         "addr:city": "Gliwice",
-        "addr:housenumber": "1",
+        "addr:housenumber": "1a",
         "addr:postcode": "44-100",
         "addr:street": "Rynek",
         "amenity": "townhall",
@@ -4978,7 +4859,7 @@
         "addr:street": "Plac Wolności",
         "addr:street:sym_ul": "24685",
         "amenity": "townhall",
-        "building": "yes",
+        "building": "public",
         "heritage": "2",
         "heritage:operator": "nid",
         "historic": "building",
@@ -5107,7 +4988,7 @@
         "addr:city": "Pionki",
         "addr:housenumber": "15",
         "addr:postcode": "26-670",
-        "addr:street": "Jana Pawła II",
+        "addr:street": "Aleja Jana Pawła II",
         "amenity": "townhall",
         "building": "public",
         "building:colour": "lightyellow",
@@ -5431,8 +5312,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.6903658,
-          53.8278363
+          20.6903534,
+          53.8278318
         ]
       },
       "id": "way/170260113"
@@ -5941,8 +5822,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.2019412,
-          52.0582408
+          19.2019415,
+          52.0582488
         ]
       },
       "id": "way/174447187"
@@ -5957,9 +5838,15 @@
         "amenity": "townhall",
         "building": "civic",
         "building:levels": "4",
+        "email": "office@zakopane.eu",
+        "fax": "+48 18 2020444",
         "name": "Urząd Miasta Zakopane",
+        "opening_hours": "Mo 10:00-16:00; Tu-Fr 09:00-14:00; We 09:00-12:00",
+        "phone": "+48 18 2020400",
         "roof:levels": "0",
         "source:addr": "emuia.gugik.gov.pl",
+        "townhall:type": "city",
+        "website": "http://zakopane.pl",
         "@geometry": "center"
       },
       "geometry": {
@@ -6098,8 +5985,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9905506,
-          53.5665345
+          20.9905215,
+          53.5665435
         ]
       },
       "id": "way/176091720"
@@ -6116,8 +6003,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9906625,
-          53.5662645
+          20.9906268,
+          53.5662814
         ]
       },
       "id": "way/176091721"
@@ -6134,8 +6021,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9902705,
-          53.566684
+          20.9902712,
+          53.5666863
         ]
       },
       "id": "way/176091723"
@@ -6430,7 +6317,10 @@
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Miasta",
+        "phone": "+48 68 47 08 318",
         "source:addr": "mzary.e-mapa.net",
+        "url": "https://polska-org.pl/514034,Zary,Ratusz_w_Zarach.html",
+        "website": "http://www.bip.zary.pl/54/Urzad_Miejski_w_Zarach/",
         "@geometry": "center"
       },
       "geometry": {
@@ -6588,23 +6478,6 @@
         ]
       },
       "id": "way/179178728"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/179379002",
-        "amenity": "townhall",
-        "name": "Urząd Gminy Gołymin-Osrodek",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.8738341,
-          52.8098778
-        ]
-      },
-      "id": "way/179379002"
     },
     {
       "type": "Feature",
@@ -6875,6 +6748,7 @@
         "addr:street": "Niepodległości",
         "amenity": "townhall",
         "building": "civic",
+        "building:levels": "3",
         "name": "Urząd Gminy Kodrąb",
         "@geometry": "center"
       },
@@ -7157,7 +7031,7 @@
         "amenity": "townhall",
         "building": "office",
         "name": "Urząd Gminy Suwałki",
-        "office": "administrative",
+        "office": "government",
         "townhall:type": "village",
         "@geometry": "center"
       },
@@ -7644,6 +7518,37 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/195909536",
+        "addr:city": "Dobiegniew",
+        "addr:housenumber": "24",
+        "addr:postcode": "66-520",
+        "addr:street": "Obrońców Pokoju",
+        "amenity": "townhall",
+        "building": "office",
+        "building:levels": "2",
+        "description": "Burmistrz przyjmuje interesantów w sprawach skarg i wniosków w każdy poniedziałek w godz. od 8:00 do 17:00.",
+        "email": "urzad@dobiegniew.pl",
+        "fax": "+48 95 76 11 041",
+        "name": "Urząd Miejski w Dobiegniewie",
+        "opening_hours": "Mo 07:30-17:00; Tu-Th 07:30-15:30; Fr 07:30-14:00; Sa,Su off; PH off",
+        "phone": "+48 95 76 11 001",
+        "short_name": "UM Dobiegniew",
+        "source": "dobiegniew.e-mapa.net",
+        "website": "http://www.dobiegniew.pl/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7490606,
+          52.969169
+        ]
+      },
+      "id": "way/195909536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/196510023",
         "addr:city": "Ścinawa",
         "addr:housenumber": "17",
@@ -7689,6 +7594,30 @@
         ]
       },
       "id": "way/196601099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/196828484",
+        "addr:city": "Piekary Śląskie",
+        "addr:housenumber": "84",
+        "addr:postcode": "41-940",
+        "addr:street": "Bytomska",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Miasta Piekary Śląskie",
+        "source": "Bing",
+        "source:addr": "UM Piekary Śląskie",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.944354,
+          50.3751054
+        ]
+      },
+      "id": "way/196828484"
     },
     {
       "type": "Feature",
@@ -8022,8 +7951,34 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/199729061",
+        "addr:city": "Chodzież",
+        "addr:city:simc": "0966760",
+        "addr:housenumber": "1",
+        "addr:postcode": "64-800",
+        "addr:street": "Wiosny Ludów",
+        "amenity": "townhall",
+        "building": "yes",
+        "contact:website": "http://www.powiat-chodzieski.pl/",
+        "name": "Starostwo Powiatowe",
+        "source:addr": "mchodziez.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9190819,
+          52.9956683
+        ]
+      },
+      "id": "way/199729061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/199729151",
         "addr:city": "Chodzież",
+        "addr:city:simc": "0966760",
         "addr:housenumber": "2",
         "addr:postcode": "64-800",
         "addr:street": "Ignacego Jana Paderewskiego",
@@ -8064,8 +8019,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.1617976,
-          52.2589086
+          21.1618398,
+          52.2589001
         ]
       },
       "id": "way/200067640"
@@ -8581,8 +8536,10 @@
         "addr:street": "Podgórna",
         "amenity": "townhall",
         "building": "office",
+        "description": "https://lubuskie.fotopolska.eu/88587,obiekt.html?map_z=18",
         "email": "UrzadMiasta@um.zielona-gora.pl",
         "fax": "+48 68 456 4155",
+        "image": "https://images.mapillary.com/U9IOA8a8aqSTn-E9YZ0KbQ/thumb-2048.jpg",
         "mapillary": "https://www.mapillary.com/map/im/U9IOA8a8aqSTn-E9YZ0KbQ",
         "name": "Urząd Miasta",
         "operator": "Miasto Zielona Góra",
@@ -8757,7 +8714,7 @@
         "addr:city:simc": "0970974",
         "addr:housenumber": "2",
         "addr:postcode": "62-030",
-        "addr:street": "Edmunda Bojanowskiego",
+        "addr:street": "Plac Edmunda Bojanowskiego",
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Miasta Luboń",
@@ -9005,34 +8962,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.4507809,
-          53.6507376
+          22.4508062,
+          53.6507217
         ]
       },
       "id": "way/213916212"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/213916214",
-        "addr:city": "Grajewo",
-        "addr:housename": "Urząd Miasta Grajewo",
-        "addr:housenumber": "6A",
-        "addr:postcode": "19-200",
-        "addr:street": "Strażacka",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Urząd Miasta Grajewo",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.4501294,
-          53.6505385
-        ]
-      },
-      "id": "way/213916214"
     },
     {
       "type": "Feature",
@@ -9261,6 +9195,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/217948553",
+        "addr:city": "Olecko",
+        "addr:city:simc": "0977798",
+        "addr:housenumber": "3",
+        "addr:street": "Plac Wolności",
+        "amenity": "townhall",
+        "building": "office",
+        "name": "Urząd Miasta Olecko",
+        "source:addr": "olecko.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5039571,
+          54.0362831
+        ]
+      },
+      "id": "way/217948553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/218064054",
         "addr:city": "Częstochowa",
         "addr:housenumber": "11/13",
@@ -9294,8 +9251,10 @@
         "addr:street": "Stefana Batorego",
         "amenity": "townhall",
         "building": "yes",
+        "email": "gmina@starysacz.um.gov.pl",
         "fax": "+48 18 446 02 73",
         "name": "Urząd Miejski w Starym Sączu",
+        "opening_hours": "Mo 08:30-16:30; Tu-Fr 07:30-15:30; PH closed",
         "operator": "Burmistrz Starego Sącza",
         "phone": "+48 18 446 02 70",
         "source:addr": "EMUiA (emuia.gugik.gov.pl)",
@@ -9447,6 +9406,33 @@
         ]
       },
       "id": "way/219279536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/219284525",
+        "addr:city": "Czeladź",
+        "addr:city:simc": "0939349",
+        "addr:housenumber": "12",
+        "addr:postcode": "41-253",
+        "addr:street": "Elizy Orzeszkowej",
+        "amenity": "townhall",
+        "building": "yes",
+        "building:levels": "1",
+        "building:use:pl": "Biurowy",
+        "name": "Miejski Zarząd Gospodarki Komunalnej",
+        "source": "Starostwo Powiatowe Będzin",
+        "source:addr": "mczeladz.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1041427,
+          50.2988784
+        ]
+      },
+      "id": "way/219284525"
     },
     {
       "type": "Feature",
@@ -9773,7 +9759,7 @@
         "historic": "heritage",
         "name": "Ratusz",
         "ref:nid": "A-54",
-        "source:addr": "EMUiA (emuia.gugik.gov.pl)",
+        "source:addr": "EMUiA (emuia.gugik.gov.pl);GUGIK",
         "@geometry": "center"
       },
       "geometry": {
@@ -9836,6 +9822,36 @@
         ]
       },
       "id": "way/223518300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223539642",
+        "addr:city": "Kamieniec Ząbkowicki",
+        "addr:city:simc": "0852631",
+        "addr:housenumber": "26",
+        "addr:postcode": "57-230",
+        "addr:street": "Ząbkowicka",
+        "addr:street:sym_ul": "25881",
+        "amenity": "townhall",
+        "building": "yes",
+        "email": "gmina@kamzab.pl",
+        "fax": "+48 74 817 33 61",
+        "name": "Urząd Gminy",
+        "phone": "+48 72 905 78 40",
+        "source:addr": "emuia.gugik.gov.pl",
+        "source:geometry": "geoportal.gov.pl, GPS",
+        "website": "www.kamienieczabkowicki.eu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8710915,
+          50.5255411
+        ]
+      },
+      "id": "way/223539642"
     },
     {
       "type": "Feature",
@@ -9975,13 +9991,15 @@
       "properties": {
         "@id": "way/225920571",
         "addr:city": "Wągrowiec",
+        "addr:city:simc": "0967297",
         "addr:housenumber": "15",
         "addr:postcode": "62-100",
         "addr:street": "Tadeusza Kościuszki",
         "amenity": "townhall",
         "building": "yes",
         "name": "Starostwo Powiatowe",
-        "note": "Godziny otwarcia\nMo-Fr 08:00-16:00",
+        "note": "Godziny otwarcia Mo-Fr 08:00-16:00",
+        "source:addr": "mwagrowiec.e-mapa.net",
         "@geometry": "center"
       },
       "geometry": {
@@ -10445,7 +10463,7 @@
       "properties": {
         "@id": "way/230026493",
         "amenity": "townhall",
-        "building": "yes",
+        "building": "public",
         "name": "Ratusz Miejski",
         "source:geometry": "geoportal.gov.pl, GPS",
         "@geometry": "center"
@@ -10496,7 +10514,7 @@
       "properties": {
         "@id": "way/230556691",
         "amenity": "townhall",
-        "building": "yes",
+        "building": "public",
         "name": "Urząd Miasta",
         "@geometry": "center"
       },
@@ -10933,6 +10951,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/232368268",
+        "addr:city": "Lubsza",
+        "addr:housenumber": "16",
+        "addr:postcode": "49-313",
+        "addr:street": "Brzeska",
+        "amenity": "townhall",
+        "building": "public",
+        "source": "http://sdi.opolskie.pl/mapa_bazowa/request.aspx",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5196512,
+          50.9137131
+        ]
+      },
+      "id": "way/232368268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/232485796",
         "addr:city": "Milanówek",
         "addr:housenumber": "4",
@@ -11046,6 +11086,7 @@
         "operator": "Urząd Miasta i Gminy Zbąszynek",
         "phone": "+48 68 38 49 140",
         "source": "EMUiA UMiG Zbąszynek",
+        "url": "https://polska-org.pl/8304652,Zbaszynek,Urzad_Miejski_w_Zbaszynku.html",
         "wikidata": "Q168902",
         "wikipedia": "pl:Zbąszynek",
         "@geometry": "center"
@@ -11149,10 +11190,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/234160628",
-        "addr:city": "Sułoszowa I",
+        "addr:city": "Sułoszowa",
         "addr:housenumber": "80",
-        "addr:place": "Sułoszowa I",
         "addr:postcode": "32-045",
+        "addr:street": "Krakowska",
         "amenity": "townhall",
         "building": "office",
         "email": "gmina@suloszowa.pl",
@@ -11167,8 +11208,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.7546595,
-          50.2552501
+          19.7546697,
+          50.2552414
         ]
       },
       "id": "way/234160628"
@@ -11342,6 +11383,7 @@
       "properties": {
         "@id": "way/236556469",
         "addr:city": "Jarocin",
+        "addr:city:simc": "0936776",
         "addr:postcode": "63-200",
         "addr:street": "Rynek",
         "amenity": "townhall",
@@ -11354,6 +11396,7 @@
         "office": "administrative",
         "ref:nid": "10/64",
         "source": "zVID & Bing",
+        "source:addr": "EMUiA@iMPA (jarocin.e-mapa.net)",
         "tourism": "museum",
         "website": "http://www.muzeumjarocin.pl/",
         "wikidata": "Q11833856",
@@ -11396,6 +11439,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/236904450",
+        "addr:city": "Tolkmicko",
+        "addr:housenumber": "3",
+        "addr:postcode": "82-340",
+        "addr:street": "Plac Wolności",
         "amenity": "townhall",
         "building": "yes",
         "name": "Ratusz",
@@ -11406,8 +11453,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.5272348,
-          54.3198821
+          19.5272967,
+          54.3199015
         ]
       },
       "id": "way/236904450"
@@ -11594,16 +11641,17 @@
         "addr:street": "Poznańska",
         "amenity": "townhall",
         "building": "yes",
+        "building:levels": "2",
         "contact:website": "http://www.kleszczewo.pl",
-        "name": "Urząd Gminy Kleszczowo",
+        "name": "Urząd Gminy Kleszczewo",
         "source:addr": "EMUiA (kleszczewo.e-mapa.net)",
         "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.1671924,
-          52.3352889
+          17.1672829,
+          52.335223
         ]
       },
       "id": "way/238433261"
@@ -12053,6 +12101,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/241686023",
+        "addr:city": "Kutno",
+        "addr:housenumber": "12",
+        "addr:postcode": "99-300",
+        "addr:street": "Doktora Antoniego Troczewskiego",
+        "amenity": "townhall",
+        "building": "office",
+        "government": "tax",
+        "name": "Urząd Skarbowy w Kutnie",
+        "office": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3650681,
+          52.2269193
+        ]
+      },
+      "id": "way/241686023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/242508204",
         "addr:city": "Tczew",
         "addr:housenumber": "1",
@@ -12175,8 +12247,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.1693218,
-          52.1505143
+          15.169244,
+          52.150504
         ]
       },
       "id": "way/243297596"
@@ -12267,6 +12339,7 @@
         "addr:street": "Plac Zwycięstwa",
         "amenity": "townhall",
         "building": "yes",
+        "name": "Ratusz",
         "source:addr": "EMUiA (emuia.gugik.gov.pl)",
         "@geometry": "center"
       },
@@ -12334,14 +12407,16 @@
         "addr:street": "Warszawska",
         "amenity": "townhall",
         "building": "yes",
+        "government": "administrative",
         "name": "Urząd miasta",
+        "office": "government",
         "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.3926186,
-          53.9875509
+          20.3925786,
+          53.9875317
         ]
       },
       "id": "way/244475322"
@@ -12454,6 +12529,7 @@
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Miasta",
+        "website": "http://www.ostrowmaz.pl/619-Miastowobiektywie.htm",
         "@geometry": "center"
       },
       "geometry": {
@@ -12609,7 +12685,6 @@
         "name": "Urząd Miasta",
         "phone": "+48236543382",
         "source": "http://ump.waw.pl/ retrieved 12:40:28 08/23/09 (UMP-Ciechanow/src/POI-Ciechanow.inne.pnt-converted.txt)",
-        "source:addr": "emuia.gugik.gov.pl",
         "@geometry": "center"
       },
       "geometry": {
@@ -12657,7 +12732,7 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/247899810",
+        "@id": "way/247899818",
         "addr:city": "Miedźna",
         "addr:city:simc": "0217082",
         "addr:housenumber": "131",
@@ -12675,11 +12750,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.0528654,
-          49.9694985
+          19.0527799,
+          49.9695392
         ]
       },
-      "id": "way/247899810"
+      "id": "way/247899818"
     },
     {
       "type": "Feature",
@@ -12697,8 +12772,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.436395,
-          53.6969713
+          22.4364218,
+          53.697002
         ]
       },
       "id": "way/249003302"
@@ -13229,8 +13304,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/252346073",
-        "addr:city": "Zakrzew",
         "addr:housenumber": "51",
+        "addr:place": "Zakrzew",
         "addr:postcode": "26-652",
         "amenity": "townhall",
         "building": "yes",
@@ -14103,28 +14178,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/256257823",
-        "addr:city": "Włocławek",
-        "addr:housenumber": "28",
-        "addr:postcode": "87-800",
-        "addr:street": "Cyganka",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Starostwo Powiatowe",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0685766,
-          52.6597072
-        ]
-      },
-      "id": "way/256257823"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/256379496",
         "addr:city": "Łomża",
         "addr:city:simc": "0957241",
@@ -14177,7 +14230,8 @@
       "properties": {
         "@id": "way/256870406",
         "addr:city": "Włocławek",
-        "addr:housenumber": "11-13",
+        "addr:city:simc": "0984752",
+        "addr:housenumber": "11/13",
         "addr:postcode": "87-800",
         "addr:street": "Zielony Rynek",
         "amenity": "townhall",
@@ -14186,6 +14240,7 @@
         "name": "Urząd Miasta Włocławek",
         "opening_hours": "Mo,We,Th 07:30-15:30; Tu 07:30-17:00; Fr 07:30-14:00",
         "phone": "+ 48 54 414 40 00",
+        "source:addr": "gugik.gov.pl",
         "website": "http://www.wloclawek.pl/",
         "wheelchair": "yes",
         "@geometry": "center"
@@ -14426,6 +14481,34 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/258687183",
+        "addr:city": "Opatów",
+        "addr:city:simc": "0980671",
+        "addr:housenumber": "13",
+        "addr:postcode": "27-500",
+        "addr:street": "Partyzantów",
+        "addr:street:sym_ul": "15733",
+        "amenity": "townhall",
+        "building": "yes",
+        "contact:email": "kiop@praca.gov.pl",
+        "contact:phone": "+48 15 868 03 00",
+        "contact:website": "www.pup-opatow.pl",
+        "name": "Powiatowy Urząd Pracy w Opatowie",
+        "source:addr": "emuia.gugik.gov.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4257133,
+          50.7982372
+        ]
+      },
+      "id": "way/258687183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/258967858",
         "addr:city": "Dobrcz",
         "addr:housename": "Urząd Gminy Dobrcz",
@@ -14533,6 +14616,7 @@
         "alt_name": "Urząd Miasta",
         "amenity": "townhall",
         "building": "public",
+        "building:levels": "3",
         "email": "sekretariat@um.mielec.pl",
         "fax": "+48 177888505",
         "government": "town council",
@@ -14542,6 +14626,7 @@
         "office": "government",
         "official_name": "Gmina Miejska Mielec",
         "phone": "+48 177888500",
+        "roof:shape": "flat",
         "source:addr": "EMUiA (emuia.gugik.gov.pl)",
         "wheelchair": "yes",
         "@geometry": "center"
@@ -14550,7 +14635,7 @@
         "type": "Point",
         "coordinates": [
           21.4393586,
-          50.2904658
+          50.2904632
         ]
       },
       "id": "way/259528627"
@@ -14629,6 +14714,7 @@
       "properties": {
         "@id": "way/261128452",
         "addr:city": "Grodzisk Wielkopolski",
+        "addr:city:simc": "0970810",
         "addr:housenumber": "1",
         "addr:postcode": "62-065",
         "addr:street": "Stary Rynek",
@@ -14687,7 +14773,7 @@
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Miasta",
-        "office": "administrative",
+        "office": "government",
         "source:addr": "EMUiA (emuia.gugik.gov.pl)",
         "@geometry": "center"
       },
@@ -14714,7 +14800,7 @@
         "email": "starostwo@powiat.malbork.pl",
         "fax": "55 272 34 62",
         "name": "Starostwo Powiatowe",
-        "office": "administrative",
+        "office": "government",
         "phone": "55 646 0 400",
         "source:addr": "EMUiA (emuia.gugik.gov.pl)",
         "@geometry": "center"
@@ -14780,8 +14866,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.0960244,
-          52.2313477
+          17.0960192,
+          52.2313426
         ]
       },
       "id": "way/261583387"
@@ -15115,7 +15201,7 @@
         "addr:city": "Nowe Warpno",
         "addr:housenumber": "1",
         "addr:postcode": "72-022",
-        "addr:street": "Zwycięstwa",
+        "addr:street": "plac Zwycięstwa",
         "amenity": "townhall",
         "building": "office",
         "building:levels": "2",
@@ -15374,33 +15460,6 @@
         ]
       },
       "id": "way/266549722"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/266550016",
-        "addr:city": "Bystrzyca Kłodzka",
-        "addr:city:simc": "0983899",
-        "addr:housenumber": "6",
-        "addr:postcode": "57-500",
-        "addr:street": "Henryka Sienkiewicza",
-        "addr:street:sym_ul": "19834",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Urząd Miasta i Gminy w Bystrzycy Kłodzkiej",
-        "office": "government",
-        "source:addr": "emuia.gugik.gov.pl",
-        "source:geometry": "geoportal.gov.pl, GPS",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.650184,
-          50.300288
-        ]
-      },
-      "id": "way/266550016"
     },
     {
       "type": "Feature",
@@ -15670,30 +15729,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/270176669",
-        "addr:city": "Jędrzejów",
-        "addr:housenumber": "33a",
-        "addr:postcode": "28-300",
-        "addr:street": "11 Listopada",
-        "amenity": "townhall",
-        "building": "yes",
-        "building:levels": "5",
-        "name": "Urząd skarbowy",
-        "source:addr": "EMUiA (emuia.gugik.gov.pl)",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3002605,
-          50.6416277
-        ]
-      },
-      "id": "way/270176669"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/270177586",
         "addr:city": "Jędrzejów",
         "addr:housename": "Urząd Miasta",
@@ -15849,6 +15884,7 @@
         "name:pl": "Ratusz",
         "ref:nid": "1335/A",
         "source:addr": "EMUiA@iMPA (mkoscian.e-mapa.net)",
+        "wheelchair": "no",
         "wikidata": "Q11833864",
         "wikipedia": "pl:Ratusz w Kościanie",
         "@geometry": "center"
@@ -16022,12 +16058,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/274093730",
+        "addr:city": "Rostarzewo",
+        "addr:city:simc": "0593840",
+        "addr:housenumber": "28",
+        "addr:postcode": "62-068",
+        "addr:street": "Plac Powstańców Wielkopolskich",
         "amenity": "townhall",
         "building": "yes",
         "heritage": "2",
         "heritage:operator": "nid",
         "name": "Ratusz",
         "ref:nid": "350/30/A",
+        "source:addr": "rakoniewice.e-mapa.net",
         "wikidata": "Q16595208",
         "wikipedia": "pl:Ratusz w Rostarzewie",
         "@geometry": "center"
@@ -16084,36 +16126,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.5007392,
-          52.0164235
+          18.5008069,
+          52.0163799
         ]
       },
       "id": "way/274218333"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/274796097",
-        "addr:city": "Gryfów Śląski",
-        "addr:housenumber": "1",
-        "addr:postcode": "59-620",
-        "addr:street": "Rynek",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Urząd Miasta i Gminy",
-        "phone": "+48 75 781 35 52",
-        "source": "geoportal:orto",
-        "website": "gryfow.pl",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.4146343,
-          51.0279522
-        ]
-      },
-      "id": "way/274796097"
     },
     {
       "type": "Feature",
@@ -16177,7 +16194,9 @@
       "properties": {
         "@id": "way/275563124",
         "addr:city": "Rakoniewice Wieś",
+        "addr:city:simc": "0593780",
         "addr:housenumber": "1",
+        "addr:postcode": "62-067",
         "addr:street": "Osiedle Parkowe",
         "amenity": "townhall",
         "building": "yes",
@@ -16228,6 +16247,36 @@
         ]
       },
       "id": "way/275894382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/276804311",
+        "addr:city": "Długołęka",
+        "addr:housenumber": "12",
+        "addr:postcode": "55-095",
+        "addr:street": "Robotnicza",
+        "amenity": "townhall",
+        "building": "yes",
+        "building:colour": "#F3EFE0",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Urząd Gminy Długołęka",
+        "phone": "71 323 02 03",
+        "roof:colour": "salmon",
+        "roof:shape": "flat",
+        "website": "http://www.gmina.dlugoleka.pl/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.200716,
+          51.1762329
+        ]
+      },
+      "id": "way/276804311"
     },
     {
       "type": "Feature",
@@ -16349,7 +16398,6 @@
       "properties": {
         "@id": "way/279129176",
         "addr:city": "Zgorzelec",
-        "addr:country": "PL",
         "addr:housenumber": "18",
         "addr:postcode": "59-900",
         "addr:street": "Warszawska",
@@ -16502,15 +16550,15 @@
         "addr:street:sym_ul": "19253",
         "amenity": "townhall",
         "building": "yes",
-        "name": "Urząd Miasta Pułtusk",
+        "name": "Urząd Miejski w Pułtusku",
         "source:addr": "emuia.gugik.gov.pl",
         "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.0912979,
-          52.7057926
+          21.0912976,
+          52.7058198
         ]
       },
       "id": "way/281142170"
@@ -16629,7 +16677,7 @@
         "addr:street": "Tadeusza Kościuszki",
         "alt_name": "Ratusz",
         "amenity": "townhall",
-        "building": "commercial",
+        "building": "civic",
         "name": "Urząd Miejski",
         "source:addr": "EMUiA (emuia.gugik.gov.pl)",
         "url": "http://www.debica.pl/",
@@ -17103,7 +17151,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.2423533,
+          22.2423542,
           52.4065921
         ]
       },
@@ -17713,7 +17761,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/294981856",
-        "addr:city": "Czerwionka",
+        "addr:city": "Czerwionka-Leszczyny",
+        "addr:city:simc": "0939409",
         "addr:housenumber": "9",
         "addr:postcode": "44-230",
         "addr:street": "Parkowa",
@@ -17723,6 +17772,7 @@
         "name": "Urząd Miasta i Gminy Czerwionka-Leszczyny",
         "opening_hours": "Mo 07:30-17:00; Tu-Th 07:30-15:30; Fr 07:30-14:00",
         "phone": "+48 32 429 59 11",
+        "source:addr": "EMUiA",
         "website": "www.czerwionka-leszczyny.com.pl",
         "@geometry": "center"
       },
@@ -18172,6 +18222,7 @@
         "building": "yes",
         "name": "Urząd Miasta i Gminy",
         "source:addr": "EMUiA@iMPA (sokolowmalopolski.e-mapa.net)",
+        "townhall:type": "city;county",
         "@geometry": "center"
       },
       "geometry": {
@@ -18318,14 +18369,17 @@
       "properties": {
         "@id": "way/300184010",
         "addr:city": "Nowe Miasto nad Wartą",
+        "addr:city:simc": "0590869",
         "addr:housenumber": "14",
         "addr:postcode": "63-040",
         "addr:street": "Poznańska",
+        "addr:street:sym_ul": "17394",
         "amenity": "townhall",
         "building": "yes",
         "contact:website": "http://www.gmina-nowe-miasto.pl/",
         "name": "Urząd Gminy Nowe Miasto nad Wartą",
         "opening_hours": "Mo 08:00-16:00; Tu-Fr 07:00-15:00",
+        "source:addr": "nowemiastonadwarta.e-mapa.net",
         "@geometry": "center"
       },
       "geometry": {
@@ -19402,7 +19456,7 @@
         "@id": "way/308418662",
         "addr:city": "Ostrowite",
         "addr:city:simc": "0291687",
-        "addr:housenumber": "3",
+        "addr:housenumber": "2",
         "addr:postcode": "62-402",
         "addr:street": "Lipowa",
         "addr:street:sym_ul": "11139",
@@ -19556,10 +19610,6 @@
       "type": "Feature",
       "properties": {
         "@id": "way/311223598",
-        "addr:city": "Kluczbork",
-        "addr:housenumber": "1",
-        "addr:postcode": "46-200",
-        "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "yes",
         "building:levels": "3",
@@ -19573,8 +19623,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.2146874,
-          50.9729964
+          18.2147025,
+          50.9729991
         ]
       },
       "id": "way/311223598"
@@ -19850,6 +19900,23 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/315734580",
+        "amenity": "townhall",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5547843,
+          51.5471263
+        ]
+      },
+      "id": "way/315734580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/316106245",
         "addr:city": "Hanna",
         "addr:housenumber": "2/1",
@@ -20107,8 +20174,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.8888416,
-          51.3526823
+          19.8888613,
+          51.3526751
         ]
       },
       "id": "way/318421641"
@@ -20256,28 +20323,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/320274066",
-        "addr:city": "Zakopane",
-        "addr:housenumber": "15",
-        "addr:postcode": "34-500",
-        "addr:street": "Chramcówki",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Starostwo Powiatowe w Zakopanem",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.9623303,
-          49.3053254
-        ]
-      },
-      "id": "way/320274066"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/320922318",
         "addr:city": "Kamieniec",
         "addr:housenumber": "25",
@@ -20416,9 +20461,10 @@
         "@id": "way/323726413",
         "addr:city": "Luborzyca",
         "addr:city:simc": "0322347",
-        "addr:housenumber": "97",
+        "addr:housenumber": "7",
         "addr:place": "Luborzyca",
         "addr:postcode": "32-010",
+        "addr:street": "Jagiellońska",
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Gminy Kocmyrzów-Luborzyca",
@@ -20547,8 +20593,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2933268,
-          51.3781513
+          20.2933052,
+          51.3781332
         ]
       },
       "id": "way/325533601"
@@ -20674,6 +20720,91 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/326774865",
+        "amenity": "townhall",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2936937,
+          51.3779756
+        ]
+      },
+      "id": "way/326774865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/326774866",
+        "amenity": "townhall",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2938696,
+          51.3777851
+        ]
+      },
+      "id": "way/326774866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/326774867",
+        "amenity": "townhall",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2935404,
+          51.3777168
+        ]
+      },
+      "id": "way/326774867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/326774868",
+        "amenity": "townhall",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.293754,
+          51.3776086
+        ]
+      },
+      "id": "way/326774868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/326774869",
+        "amenity": "townhall",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2939177,
+          51.3775116
+        ]
+      },
+      "id": "way/326774869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/327499462",
         "addr:city:simc": "0355358",
         "addr:housenumber": "85",
@@ -20684,7 +20815,7 @@
         "name": "Urząd Gminy Krempna",
         "phone": "+48 13 441 4045",
         "source:addr": "emuia.gugik.gov.pl",
-        "website": "www.krempna.pl",
+        "website": "http://www.krempna.pl",
         "@geometry": "center"
       },
       "geometry": {
@@ -20701,6 +20832,7 @@
       "properties": {
         "@id": "way/327729203",
         "addr:city": "Dobroszyce",
+        "addr:housenumber": "16",
         "addr:postcode": "56-410",
         "addr:street": "Rynek",
         "amenity": "townhall",
@@ -20711,8 +20843,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3389505,
-          51.2628396
+          17.3389569,
+          51.2628426
         ]
       },
       "id": "way/327729203"
@@ -20811,23 +20943,6 @@
         ]
       },
       "id": "way/328469437"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/329262769",
-        "amenity": "townhall",
-        "building": "yes",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.0927529,
-          51.6638517
-        ]
-      },
-      "id": "way/329262769"
     },
     {
       "type": "Feature",
@@ -20971,8 +21086,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.0478036,
-          50.4680587
+          19.0478091,
+          50.4680573
         ]
       },
       "id": "way/330930308"
@@ -21301,32 +21416,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/334195752",
-        "addr:city": "Jutrosin",
-        "addr:city:simc": "0954461",
-        "addr:housenumber": "26",
-        "addr:postcode": "63-930",
-        "addr:street": "Rynek",
-        "amenity": "townhall",
-        "building": "yes",
-        "contact:website": "http://www.jutrosin.eu/",
-        "name": "Urząd Miasta i Gminy Jutrosin",
-        "opening_hours": "Mo 08:00-16:00; Tu-Fr 07:30-15:30",
-        "source:addr": "emuia.gugik.gov.pl",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.1692678,
-          51.6537539
-        ]
-      },
-      "id": "way/334195752"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/334226470",
         "addr:city": "Pińczów",
         "addr:housenumber": "10",
@@ -21488,6 +21577,31 @@
         ]
       },
       "id": "way/336398387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/336744713",
+        "addr:city": "Międzyzdroje",
+        "addr:housenumber": "5",
+        "addr:postcode": "72-500",
+        "addr:street": "Książąt Pomorskich",
+        "amenity": "townhall",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Urząd Miasta Międzyzdroje",
+        "office": "administrative",
+        "source": "Starostwo Powiatowe w Kamieniu Pomorskim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.452048,
+          53.93157
+        ]
+      },
+      "id": "way/336744713"
     },
     {
       "type": "Feature",
@@ -21847,29 +21961,6 @@
         ]
       },
       "id": "way/341248635"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/341906579",
-        "addr:city:simc": "0385313",
-        "addr:housenumber": "76",
-        "addr:place": "Łaziska",
-        "addr:postcode": "24-335",
-        "amenity": "townhall",
-        "building": "yes",
-        "building:levels": "2",
-        "source:addr": "laziska.e-mapa.net",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.8768145,
-          51.1406282
-        ]
-      },
-      "id": "way/341906579"
     },
     {
       "type": "Feature",
@@ -22277,8 +22368,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.1415883,
-          51.956724
+          20.1415874,
+          51.9567169
         ]
       },
       "id": "way/348728142"
@@ -22335,6 +22426,35 @@
         ]
       },
       "id": "way/350100598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/350125498",
+        "addr:city": "Karpacz",
+        "addr:city:simc": "0936032",
+        "addr:housenumber": "54",
+        "addr:postcode": "58-540",
+        "addr:street": "Konstytucji 3 Maja",
+        "addr:street:sym_ul": "09213",
+        "amenity": "townhall",
+        "building": "public",
+        "building:levels": "3",
+        "description": "Budynek A-burmistrz,rada miejska,sala ślubów",
+        "name": "Urząd Miejski w Karpaczu",
+        "smoking": "no",
+        "source:addr": "karpacz.e-mapa.net",
+        "website": "https://www.karpacz.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7539608,
+          50.7749603
+        ]
+      },
+      "id": "way/350125498"
     },
     {
       "type": "Feature",
@@ -22675,6 +22795,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/354641366",
+        "addr:city": "Dąbrowa Tarnowska",
+        "addr:housenumber": "5",
+        "addr:postcode": "33-200",
+        "addr:street": "Berka Joselewicza",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Starowstwo Powiatowe",
+        "phone": "+48146422431",
+        "source": "http://ump.waw.pl/ retrieved 11:18:52 11/17/09 (UMP-Tarnow/src/POI-inne.pnt-converted.txt)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9877865,
+          50.1761739
+        ]
+      },
+      "id": "way/354641366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/354883884",
         "addr:city": "Dobra",
         "addr:housenumber": "10",
@@ -22745,12 +22889,37 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/355461439",
+        "addr:city": "Oborniki",
+        "addr:city:simc": "0971181",
+        "addr:housenumber": "76",
+        "addr:postcode": "64-600",
+        "addr:street": "Marszałka Józefa Piłsudskiego",
+        "addr:street:sym_ul": "36029",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Miejski w Obornikach",
+        "source:addr": "oborniki.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8194778,
+          52.6528547
+        ]
+      },
+      "id": "way/355461439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/355827373",
         "addr:housenumber": "19",
         "addr:place": "Rzewnie",
         "addr:postcode": "06-225",
         "amenity": "townhall",
-        "building": "yes",
+        "building": "public",
         "name": "Urząd Gminy Rzewnie",
         "website": "http://ugrzewnie.pl",
         "@geometry": "center"
@@ -22775,6 +22944,7 @@
         "addr:street": "Rynek",
         "amenity": "townhall",
         "building": "yes",
+        "description": "https://fotopolska.eu/7602,obiekt.html?map_z=18",
         "image": "https://images.mapillary.com/BZBDe41LuT1Dd8ZfLi6ajg/thumb-2048.jpg",
         "mapillary": "https://www.mapillary.com/map/im/BZBDe41LuT1Dd8ZfLi6ajg",
         "name": "Urząd Miasta i Gminy",
@@ -23082,8 +23252,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2349349,
-          53.5383777
+          17.2349559,
+          53.5383748
         ]
       },
       "id": "way/358042558"
@@ -23199,6 +23369,8 @@
         "amenity": "townhall",
         "building": "yes",
         "government": "yes",
+        "image": "https://images.mapillary.com/IvQzyRgXTaaJsS01k7LRMg/thumb-2048.jpg",
+        "mapillary": "https://www.mapillary.com/map/im/IvQzyRgXTaaJsS01k7LRMg",
         "name": "Urząd Miejski",
         "source:addr": "emuia.gugik.gov.pl",
         "website": "https://dolny-slask.org.pl/556147,Nowa_Sol,Urzad_Miejski_w_Nowej_Soli.html",
@@ -23248,6 +23420,7 @@
       "properties": {
         "@id": "way/358733255",
         "addr:city": "Dolsk",
+        "addr:city:simc": "0970589",
         "addr:housenumber": "4",
         "addr:postcode": "63-140",
         "addr:street": "Plac Wyzwolenia",
@@ -23461,6 +23634,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/361039160",
+        "addr:city": "Łabiszyn",
+        "addr:city:simc": "0929405",
+        "addr:housenumber": "1",
+        "addr:postcode": "89-210",
+        "addr:street": "Plac 1000-lecia",
+        "addr:street:sym_ul": "00008",
+        "amenity": "townhall",
+        "building": "yes",
+        "source:addr": "labiszyn.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9197233,
+          52.9527566
+        ]
+      },
+      "id": "way/361039160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/361070118",
         "amenity": "townhall",
         "building": "yes",
@@ -23635,6 +23832,36 @@
         ]
       },
       "id": "way/361579057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/361622367",
+        "addr:city": "Chojna",
+        "addr:housenumber": "4",
+        "addr:postcode": "74-500",
+        "addr:street": "Jagiellońska",
+        "amenity": "townhall",
+        "building": "office",
+        "building:levels": "4",
+        "description": "Przyjęcia interesantów w sprawie skarg i wniosków: Burmistrz - w każdy poniedziałek w godz. 14:00–16:00, Z-ca Burmistrza - w każdą środę w godz. 14:00-16:00",
+        "email": "info@chojna.pl",
+        "fax": "+48 91 414-11-17",
+        "name": "Urząd Miejski w Chojnie",
+        "opening_hours": "Mo-Fr 07:15-15:15; Sa,Su off; PH off",
+        "phone": "+48 91 414-12-95; +48 91 414-10-35",
+        "source": "chojna.e-mapa.net",
+        "website": "https://www.chojna.pl/; http://bip.chojna.pl/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4370691,
+          52.9601862
+        ]
+      },
+      "id": "way/361622367"
     },
     {
       "type": "Feature",
@@ -23847,7 +24074,7 @@
         "type": "Point",
         "coordinates": [
           17.0108021,
-          52.5757354
+          52.5757353
         ]
       },
       "id": "way/362561806"
@@ -23927,9 +24154,15 @@
         "addr:street": "Rynek",
         "amenity": "townhall",
         "email": "gmina@gminabaranow.pl",
+        "fax": "+48 81 883 40 41",
         "name": "Urząd Gminy Baranów",
+        "operator": "Gmina Baranów",
+        "phone": "+48 81 883 40 27",
+        "polling_station": "yes",
         "source": "local_knowledge",
-        "website": "https://www.gminabaranow.pl/"
+        "townhall:type": "village",
+        "website": "https://www.gminabaranow.pl/",
+        "wheelchair": "no"
       },
       "geometry": {
         "type": "Point",
@@ -23950,7 +24183,7 @@
         "addr:street": "Rynek I",
         "amenity": "townhall",
         "name": "Urząd Gminy Michów",
-        "phone": "81 8566001",
+        "phone": "+48 81 856 60 01",
         "source": "http://ump.waw.pl/%20retrieved%2012:29:37%2003/17/09%20(UMP-Lublin/src/POI-Lublin.pnt-converted.txt)",
         "website": "www.gminamichow.pl"
       },
@@ -24417,6 +24650,7 @@
         "amenity": "townhall",
         "building": "yes",
         "source:addr": "mpiotrkowtrybunalski.e-mapa.net",
+        "townhall:type": "town",
         "@geometry": "center"
       },
       "geometry": {
@@ -24449,6 +24683,31 @@
         ]
       },
       "id": "way/365297769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365373013",
+        "addr:city": "Piotrków Trybunalski",
+        "addr:city:simc": "0967430",
+        "addr:housenumber": "7",
+        "addr:postcode": "97-300",
+        "addr:street": "Jarosława Dąbrowskiego",
+        "addr:street:sym_ul": "03687",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Starostwo Powiatowe",
+        "source:addr": "mpiotrkowtrybunalski.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6870232,
+          51.4111877
+        ]
+      },
+      "id": "way/365373013"
     },
     {
       "type": "Feature",
@@ -24568,6 +24827,33 @@
         ]
       },
       "id": "way/366811632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/367020319",
+        "addr:city": "Hrubieszów",
+        "addr:city:simc": "0987800",
+        "addr:housenumber": "8",
+        "addr:postcode": "22-500",
+        "addr:street": "Bolesława Prusa",
+        "addr:street:sym_ul": "17577",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy Hrubieszów",
+        "phone": "+48846962681",
+        "source:addr": "mhrubieszow.e-mapa.net",
+        "website": "https://www.hrubieszow-gmina.pl/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.888835,
+          50.8064766
+        ]
+      },
+      "id": "way/367020319"
     },
     {
       "type": "Feature",
@@ -25185,28 +25471,29 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/376444001",
-        "addr:city": "Pruszcz Gdański",
-        "addr:city:simc": "0934620",
-        "addr:housenumber": "30",
-        "addr:postcode": "83-000",
-        "addr:street": "Wojska Polskiego",
-        "addr:street:sym_ul": "24628",
+        "@id": "way/376497947",
+        "addr:city": "Jasień",
+        "addr:city:simc": "0988431",
+        "addr:housenumber": "20",
+        "addr:street": "XX-lecia",
+        "addr:street:sym_ul": "25182",
         "amenity": "townhall",
         "building": "yes",
-        "description": "Od Stycznia 2018r. Siedziba tymczasowa do wybudowania nowego lokum.",
-        "name": "Urząd Gminy Pruszcz Gdański",
-        "source:addr": "mpruszczgdanski.e-mapa.net",
+        "name": "Urząd Miejski w Jasieniu",
+        "phone": "+48684578872",
+        "ref:addr": "75f85c20-90c6-4f5d-929b-258c526720ea",
+        "source:addr": "jasien.e-mapa.net",
+        "website": "https://jasien.com.pl/",
         "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6327655,
-          54.2580918
+          15.0115057,
+          51.7535985
         ]
       },
-      "id": "way/376444001"
+      "id": "way/376497947"
     },
     {
       "type": "Feature",
@@ -25393,29 +25680,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/380002867",
-        "addr:city": "Wyszków",
-        "addr:housenumber": "15",
-        "addr:postcode": "07-200",
-        "addr:street": "Zakolejowa",
-        "amenity": "townhall",
-        "building": "yes",
-        "name": "Starostwo Powiatowe/Nadzór Budowlany",
-        "operator": "Starostwo Powiatowe, Nadzór Budowlany",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4442581,
-          52.5964924
-        ]
-      },
-      "id": "way/380002867"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/380212416",
         "addr:city": "Ujsoły",
         "addr:city:simc": "0073499",
@@ -25524,6 +25788,36 @@
         ]
       },
       "id": "way/381053123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/381780024",
+        "addr:city": "Karnice",
+        "addr:city:simc": "0777390",
+        "addr:housenumber": "7",
+        "addr:postcode": "72-343",
+        "addr:street": "Nadmorska",
+        "addr:street:sym_ul": "13888",
+        "amenity": "townhall",
+        "building": "office",
+        "building:fireproof": "yes",
+        "building:levels": "2",
+        "name": "Urząd Gminy Karnice",
+        "phone": "+48 91 38 77 220",
+        "source": "Starostwo Powiatowe w Gryficach",
+        "source:addr": "karnice.e-mapa.net",
+        "website": "https://www.karnice.pl/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0544688,
+          54.0312288
+        ]
+      },
+      "id": "way/381780024"
     },
     {
       "type": "Feature",
@@ -25766,6 +26060,7 @@
       "properties": {
         "@id": "way/386816688",
         "addr:city": "Brodnica",
+        "addr:city:simc": "0580718",
         "addr:housenumber": "2",
         "addr:postcode": "63-112",
         "addr:street": "Parkowa",
@@ -25874,13 +26169,14 @@
         "addr:street": "Henryka Sienkiewicza",
         "amenity": "townhall",
         "building": "yes",
+        "building:levels": "2",
         "name": "Urząd Gminy",
         "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.9178352,
+          18.9178276,
           50.8425939
         ]
       },
@@ -26065,6 +26361,7 @@
       "properties": {
         "@id": "way/391426341",
         "addr:city": "Krzykosy",
+        "addr:city:simc": "0586833",
         "addr:housenumber": "37",
         "addr:postcode": "63-024",
         "addr:street": "Główna",
@@ -27073,8 +27370,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.5320926,
-          51.9088055
+          18.5321929,
+          51.9088044
         ]
       },
       "id": "way/392363714"
@@ -27651,7 +27948,7 @@
         "type": "Point",
         "coordinates": [
           18.0494737,
-          51.0177643
+          51.0177584
         ]
       },
       "id": "way/399229887"
@@ -28252,7 +28549,13 @@
         "addr:street": "Kardynała Stefana Wyszyńskiego",
         "amenity": "townhall",
         "building": "yes",
+        "description": "Parter pełnił początkowo funkcję restauracji dla letników. Na piętrze mieściły się mieszkania. Budynek posiadał drewniane, dwukondygnacyjne werandy w stylu świdermajer. Po 1945 r. w budynku mieściło się przedszkole.",
         "name": "Urząd Miasta Józefowa",
+        "operator": "Miasto Józefów",
+        "source": "Karta wojewódzkiej ewidencji zabytków nr 1446.",
+        "start_date": "ok. 1910 r.",
+        "townhall:type": "town",
+        "wheelchair": "limited",
         "@geometry": "center"
       },
       "geometry": {
@@ -28754,43 +29057,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/432403485",
-        "amenity": "townhall",
-        "building": "yes",
-        "building:levels": "3",
-        "name": "Urząd Stanu Cywilnego",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.5973366,
-          52.5351813
-        ]
-      },
-      "id": "way/432403485"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/432403486",
-        "amenity": "townhall",
-        "building": "yes",
-        "building:levels": "3",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.5975431,
-          52.5350052
-        ]
-      },
-      "id": "way/432403486"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/433873363",
         "addr:city": "Pawonków",
         "addr:housenumber": "7",
@@ -29014,6 +29280,24 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/439901481",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy Gomunice",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.4889765,
+          51.1687407
+        ]
+      },
+      "id": "way/439901481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/440749412",
         "addr:city": "Ostroróg",
         "amenity": "townhall",
@@ -29163,6 +29447,24 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/444811333",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy w Smykowie",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4000837,
+          51.0549357
+        ]
+      },
+      "id": "way/444811333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/444912067",
         "addr:city": "Dziemiany",
         "addr:housenumber": "3",
@@ -29204,7 +29506,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8180091,
+          15.8180094,
           51.1200422
         ]
       },
@@ -29775,7 +30077,7 @@
         "addr:street": "Doktora Jakuba Cieślewicza",
         "amenity": "townhall",
         "building": "yes",
-        "name": "Urząd Miasta",
+        "name": "Urząd Miejski",
         "@geometry": "center"
       },
       "geometry": {
@@ -30209,6 +30511,29 @@
         ]
       },
       "id": "node/528541884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/529272810",
+        "addr:city": "Kaliska",
+        "addr:housenumber": "2",
+        "addr:postcode": "83-260",
+        "addr:street": "Nowowiejska",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy Kaliska",
+        "operator": "gmina Kaliska",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.218117,
+          53.9066275
+        ]
+      },
+      "id": "way/529272810"
     },
     {
       "type": "Feature",
@@ -30756,16 +31081,21 @@
       "type": "Feature",
       "properties": {
         "@id": "way/552446942",
+        "addr:city": "Celestynów",
+        "addr:housenumber": "3",
+        "addr:postcode": "05-430",
+        "addr:street": "Regucka",
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Gminy Celestynów",
+        "source": "UG Celestynów",
         "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.3843592,
-          52.0587137
+          21.3843905,
+          52.0587187
         ]
       },
       "id": "way/552446942"
@@ -30941,23 +31271,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/563475013",
-        "amenity": "townhall",
-        "building": "proposed",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.6189333,
-          54.2606465
-        ]
-      },
-      "id": "way/563475013"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/563475014",
         "addr:city": "Juszkowo",
         "addr:city:simc": "0169160",
@@ -30968,6 +31281,8 @@
         "amenity": "townhall",
         "building": "yes",
         "name": "Urząd Gminy Pruszcz Gdański",
+        "townhall:type": "municipality",
+        "wheelchair": "yes",
         "@geometry": "center"
       },
       "geometry": {
@@ -31426,6 +31741,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/596017622",
+        "addr:city": "Wolbrom",
+        "addr:housenumber": "1",
+        "addr:postcode": "32-340",
+        "addr:street": "Krakowska",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Miasta i Gminy Wolbrom",
+        "opening_hours": "Mo-Tu 07:00-15:00, We 07:00-16:00, Th-Fr 07:00-15:00",
+        "phone": "+48 32 644 23 04,+48 32 644 23 20, +48 32 644 23 36",
+        "source": "local_knowledge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7592255,
+          50.385132
+        ]
+      },
+      "id": "way/596017622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/599466898",
         "addr:housenumber": "87",
         "addr:postcode": "86-100",
@@ -31582,7 +31922,7 @@
         "addr:street": "Plac Stanisława Staszica",
         "amenity": "townhall",
         "building": "yes",
-        "building:levels": "3",
+        "building:levels": "4",
         "fax": "67 2123566",
         "name": "Urząd Miasta Piły",
         "opening_hours": "Mo-Fr 07:30-15:30; Sa off; Su off",
@@ -31962,19 +32302,18 @@
       "properties": {
         "@id": "node/683190268",
         "addr:city": "Tomaszów Mazowiecki",
-        "addr:housenumber": "46",
+        "addr:housenumber": "41",
         "addr:postcode": "97-200",
-        "addr:street": "Konstytucji 3 Maja",
+        "addr:street": "Świętego Antoniego",
         "amenity": "townhall",
         "name": "Powiatowy Urząd Pracy",
-        "phone": "+48447246282",
-        "source": "http://ump.waw.pl/ retrieved 00:10:48 03/29/10 (UMP-Lodz/src/POI-Lodz.budynki.pnt-converted.txt)"
+        "phone": "+48447246282"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.0164247,
-          51.5354291
+          20.0149152,
+          51.5270522
         ]
       },
       "id": "node/683190268"
@@ -32109,8 +32448,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.8832739,
-          52.9702013
+          18.8832605,
+          52.9702708
         ]
       },
       "id": "node/692622580"
@@ -32301,6 +32640,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/744256588",
+        "addr:city": "Baranów",
+        "addr:housenumber": "87",
+        "addr:postcode": "96-314",
+        "addr:street": "Armii Krajowej",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy Baranów",
+        "source": "UG Baranów",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4711288,
+          52.1282313
+        ]
+      },
+      "id": "way/744256588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/748833147",
         "addr:city": "Łęczyca",
         "addr:housenumber": "14",
@@ -32321,6 +32683,127 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/755325487",
+        "addr:city": "Borzęcin",
+        "addr:housenumber": "583G",
+        "addr:place": "Borzęcin",
+        "addr:postcode": "32-825",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy w Borzęcinie",
+        "source:addr": "EMUiA@iMPA (borzecin.e-mapa.net)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.710136,
+          50.0672315
+        ]
+      },
+      "id": "way/755325487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/758503943",
+        "addr:city": "Szczurowa",
+        "addr:city:simc": "0831942",
+        "addr:housenumber": "2",
+        "addr:postcode": "32-820",
+        "addr:street": "Lwowska",
+        "addr:street:sym_ul": "11467",
+        "amenity": "townhall",
+        "building": "yes",
+        "email": "ug@szczurowa.pl",
+        "name": "Urząd Gminy Szczurowa",
+        "phone": "+48146714455",
+        "source:addr": "emuia.gugik.gov.pl",
+        "website": "www.szczurowa.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6397049,
+          50.1191343
+        ]
+      },
+      "id": "way/758503943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/766783730",
+        "addr:city": "Grajewo",
+        "addr:housenumber": "6A",
+        "addr:postcode": "19-200",
+        "addr:street": "Strażacka",
+        "amenity": "townhall",
+        "building": "yes",
+        "government": "yes",
+        "name": "Urząd Miasta Grajewo",
+        "townhall:type": "town",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4499669,
+          53.6505208
+        ]
+      },
+      "id": "way/766783730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/766783731",
+        "addr:city": "Grajewo",
+        "addr:housenumber": "6A",
+        "addr:postcode": "19-200",
+        "addr:street": "Strażacka",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Powiatowy Urząd Pracy w Grajewie",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4504048,
+          53.6506155
+        ]
+      },
+      "id": "way/766783731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/770444733",
+        "addr:city": "Gniezno",
+        "addr:housenumber": "6",
+        "addr:postcode": "62-200",
+        "addr:street": "Lecha",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Miejski",
+        "operator": "Miasto Gniezno",
+        "townhall:type": "city",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.602618,
+          52.5310386
+        ]
+      },
+      "id": "way/770444733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/778753162",
         "amenity": "townhall",
         "name": "Urząd Miasta"
@@ -32337,21 +32820,93 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/830789975",
-        "addr:housenumber": "2a",
-        "addr:postcode": "64-600",
-        "addr:street": "11 Listopada",
+        "@id": "way/784338116",
         "amenity": "townhall",
-        "name": "Starostwo Powiatowe w Obornikach"
+        "building": "yes",
+        "name": "Urząd Gminy Gniezno",
+        "@geometry": "center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8174262,
-          52.647497
+          17.6219597,
+          52.5325455
         ]
       },
-      "id": "node/830789975"
+      "id": "way/784338116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784673457",
+        "addr:city": "Budziszewice",
+        "addr:city:simc": "0536841",
+        "addr:housenumber": "7",
+        "addr:postcode": "97-212",
+        "addr:street": "Brzezińska",
+        "addr:street:sym_ul": "02247",
+        "amenity": "townhall",
+        "building": "yes",
+        "source:addr": "budziszewice.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9355748,
+          51.6669321
+        ]
+      },
+      "id": "way/784673457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784673465",
+        "addr:city": "Ujazd",
+        "addr:city:simc": "0554721",
+        "addr:housenumber": "6",
+        "addr:postcode": "97-225",
+        "addr:street": "Plac Tadeusza Kościuszki",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Urząd Gminy",
+        "source:addr": "ujazdtomaszowski.e-mapa.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9263497,
+          51.5967237
+        ]
+      },
+      "id": "way/784673465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/785255437",
+        "addr:city": "Jutrosin",
+        "addr:city:simc": "0954461",
+        "addr:housenumber": "26",
+        "addr:postcode": "63-930",
+        "addr:street": "Rynek",
+        "amenity": "townhall",
+        "contact:website": "http://www.jutrosin.eu/",
+        "name": "Ratusz",
+        "opening_hours": "Mo 08:00-16:00; Tu-Fr 07:30-15:30",
+        "source:addr": "emuia.gugik.gov.pl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1693758,
+          51.6537517
+        ]
+      },
+      "id": "way/785255437"
     },
     {
       "type": "Feature",
@@ -32528,7 +33083,7 @@
         "addr:city": "Inowrocław",
         "addr:housenumber": "36",
         "addr:postcode": "88-100",
-        "addr:street": "Prezydenta Franklina Roosevelta",
+        "addr:street": "Aleja Ratuszowa",
         "amenity": "townhall",
         "name": "Urząd Miasta Inowrocławia",
         "office": "government"
@@ -32541,25 +33096,6 @@
         ]
       },
       "id": "node/1064597947"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1066986298",
-        "amenity": "townhall",
-        "name": "Urząd Miejski w Obornikach",
-        "note": "Rada Miejska w Obornikach;Burmistrz Obornik;Urząd Miejski w Obornikach; Urząd Stanu Cywilnego w Obornikach; Straż Miejska w Obornikach",
-        "note_2": "Związek Ochotniczych Straży Pożarnych, Zarząd miejsko-gminny w Obornikach;Państwowy Powiatowy Inspektor Sanitarny w Obornikach;Powiatowa Stacja Sanitarno-Epidemiologiczna w Obornikach;Wielkopolska Izba Rolnicza, biuro powiatowe w Obornikach",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.8193055,
-          52.6528961
-        ]
-      },
-      "id": "node/1066986298"
     },
     {
       "type": "Feature",
@@ -32850,6 +33386,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1311676215",
+        "addr:city": "Poznań",
         "addr:housename": "Szkoła Podstawowa nr 79",
         "addr:housenumber": "14",
         "addr:postcode": "61-432",
@@ -33659,8 +34196,13 @@
         "addr:postcode": "68-200",
         "addr:street": "Aleja Jana Pawła II",
         "amenity": "townhall",
+        "email": "gminazary@gminazary.pl <gminazary@gminazary.pl",
+        "fax": "+48 68 470 73 03",
         "name": "Urząd Gminy",
-        "operator": "Urząd Gminy Żary"
+        "operator": "Urząd Gminy Żary",
+        "phone": "+48 68 470 73 00",
+        "url": "https://polska-org.pl/560879,Zary,Starostwo_Powiatowe_i_Urzad_Gminy_Zary.html",
+        "website": "https://gminazary.pl/"
       },
       "geometry": {
         "type": "Point",
@@ -34089,13 +34631,16 @@
         "addr:postcode": "72-300",
         "addr:street": "Plac Zwycięstwa",
         "amenity": "townhall",
-        "name": "Urząd Miasta i Gminy"
+        "email": "urzad@gryfice.eu",
+        "name": "Urząd Miejski w Gryficach",
+        "opening_hours": "Mo-Fr 07:30-15:30",
+        "website": "http://www.gryfice.eu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.199842,
-          53.9143743
+          15.1998147,
+          53.9144968
         ]
       },
       "id": "node/1744077013"
@@ -34166,6 +34711,27 @@
         ]
       },
       "id": "node/1755386109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1764929765",
+        "amenity": "townhall",
+        "email": "sekretariat@gmina-bialogard.pl",
+        "fax": "+48 94 312 78 44",
+        "name": "Urząd Gminy Białogard",
+        "opening_hours": "Mo-Fr 07:00-15:00; PH off",
+        "phone": "+48 94 312 44 01",
+        "website": "https://www.gmina-bialogard.pl/index.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9701261,
+          54.0079296
+        ]
+      },
+      "id": "node/1764929765"
     },
     {
       "type": "Feature",
@@ -34242,7 +34808,8 @@
         "addr:housenumber": "14",
         "addr:street": "Marszałka Józefa Piłsudskiego",
         "amenity": "townhall",
-        "name": "Urząd Miasta Trzebinia"
+        "name": "Urząd Miasta Trzebinia",
+        "opening_hours": "Mo,We,Th 07:00-15:00; Tu 07:00-17:00; Fr 07:00-13:00"
       },
       "geometry": {
         "type": "Point",
@@ -34888,7 +35455,10 @@
         "addr:postcode": "26-600",
         "addr:street": "Jana Kilińskiego",
         "amenity": "townhall",
-        "name": "Urząd Miejski w Radomiu"
+        "email": "bom@umradom.pl",
+        "name": "Urząd Miejski w Radomiu",
+        "phone": "48 36 20 419",
+        "website": "http://bip.radom.pl/"
       },
       "geometry": {
         "type": "Point",
@@ -35280,7 +35850,8 @@
         "alt_name": "ŚCSI",
         "amenity": "townhall",
         "int_name": "Silesian Center for Information Society",
-        "name": "Śląskie Centrum Społeczeństwa Informacyjnego"
+        "name": "Śląskie Centrum Społeczeństwa Informacyjnego",
+        "opening_hours": "Mo-Fr 07:30-15:30"
       },
       "geometry": {
         "type": "Point",
@@ -35624,8 +36195,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.1980833,
-          50.1112988
+          19.1980857,
+          50.1113011
         ]
       },
       "id": "node/2156420069"
@@ -35822,33 +36393,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2206351732",
-        "addr:city": "Dobiegniew",
-        "addr:housenumber": "2",
-        "addr:postcode": "66-520",
-        "addr:street": "Edwarda Dembowskiego",
-        "amenity": "townhall",
-        "email": "urzad@dobiegniew.pl",
-        "fax": "+48 95 76 11 041",
-        "name": "Urząd Miejski w Dobiegniewie",
-        "opening_hours": "Mo 07:30-17:00, Tu-Th 07:30-15:30, Fr 07:30-14:00",
-        "operator": "Gmina Dobiegniew",
-        "phone": "+48 95 76 11 001",
-        "source": "dobiegniew.e-mapa.net",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.75362,
-          52.96806
-        ]
-      },
-      "id": "node/2206351732"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2208464426",
         "addr:city": "Linia",
         "addr:housenumber": "15",
@@ -36032,22 +36576,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2272578448",
-        "amenity": "townhall",
-        "name": "Urząd Miasta Olecko"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.5041539,
-          54.0362295
-        ]
-      },
-      "id": "node/2272578448"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2278069975",
         "amenity": "townhall",
         "name": "Starostwo Powiatowe Olecko"
@@ -36055,27 +36583,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.499186,
-          54.0345056
+          22.499156,
+          54.0345241
         ]
       },
       "id": "node/2278069975"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2278152512",
-        "amenity": "townhall",
-        "name": "Urząd Skarbowy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.4959827,
-          54.036781
-        ]
-      },
-      "id": "node/2278152512"
     },
     {
       "type": "Feature",
@@ -36220,29 +36732,6 @@
         ]
       },
       "id": "node/2298119967"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2306118245",
-        "addr:city": "Wolbrom",
-        "addr:housenumber": "1",
-        "addr:postcode": "32-340",
-        "addr:street": "Krakowska",
-        "amenity": "townhall",
-        "name": "Urząd Miasta i Gminy Wolbrom",
-        "opening_hours": "Mo-Tu 07:00-15:00, We 07:00-16:00, Th-Fr 07:00-15:00",
-        "phone": "+48 32 644 23 04,+48  32 644 23 20, +48 32 644 23 36",
-        "source": "local_knowledge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.7592206,
-          50.38513
-        ]
-      },
-      "id": "node/2306118245"
     },
     {
       "type": "Feature",
@@ -36418,7 +36907,7 @@
         "addr:city": "Inowrocław",
         "addr:housenumber": "38",
         "addr:postcode": "88-100",
-        "addr:street": "Prezydenta Franklina Roosevelta",
+        "addr:street": "Aleja Ratuszowa",
         "amenity": "townhall",
         "name": "Starostwo Powiatowe w Inowrocławiu"
       },
@@ -36627,10 +37116,11 @@
         "addr:postcode": "08-450",
         "addr:street": "Duży Rynek imienia Józefa Piłsudskiego",
         "amenity": "townhall",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
         "name": "Urząd Miasta w Łaskarzewie",
         "phone": "48256845250",
-        "website": "http://laskarzew.miasto.pl",
-        "wifi": "free"
+        "website": "http://laskarzew.miasto.pl"
       },
       "geometry": {
         "type": "Point",
@@ -36681,27 +37171,6 @@
         ]
       },
       "id": "node/2456774080"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2461175170",
-        "addr:city": "Luzino",
-        "addr:housenumber": "11",
-        "addr:postcode": "84-242",
-        "addr:street": "Ofiar Stutthofu",
-        "amenity": "townhall",
-        "name": "Urząd Gminy",
-        "source:addr": "luzino.punktyadresowe.pl"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.10413,
-          54.56568
-        ]
-      },
-      "id": "node/2461175170"
     },
     {
       "type": "Feature",
@@ -37030,6 +37499,7 @@
         "fax": "67 255 64 62",
         "name": "Urząd Gminy w Lubaszu",
         "phone": "67 255 60 12",
+        "source:addr": "lubasz.e-mapa.net",
         "website": "http://lubasz.pl/"
       },
       "geometry": {
@@ -37490,6 +37960,26 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2686142349",
+        "addr:city": "Opoczno",
+        "addr:housenumber": "16",
+        "addr:postcode": "26-300",
+        "addr:street": "Plac Tadeusza Kościuszki",
+        "amenity": "townhall",
+        "name": "Urząd Miejski w Opocznie - Wydział Edukacji & Zespół ds. Rolnictwa & Zespół ds. Funduszy Europejskich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2893166,
+          51.37704
+        ]
+      },
+      "id": "node/2686142349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2687394909",
         "amenity": "townhall",
         "building": "public",
@@ -37662,10 +38152,6 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2791457176",
-        "addr:city": "Jerzmanowice",
-        "addr:housenumber": "372b",
-        "addr:place": "Jerzmanowice",
-        "addr:postcode": "32-048",
         "amenity": "townhall",
         "name": "Urząd Gminy Jerzmanowice-Przeginia",
         "phone": "+48 12 389 52 47",
@@ -38176,6 +38662,22 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2937853438",
+        "amenity": "townhall",
+        "name": "Rada Dzielnicy Stogi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7121702,
+          54.3606162
+        ]
+      },
+      "id": "node/2937853438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2949011564",
         "amenity": "townhall",
         "name": "Urzad Gminy"
@@ -38505,8 +39007,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.9031542,
-          52.5434211
+          21.9035807,
+          52.5433852
         ]
       },
       "id": "node/3025044175"
@@ -39026,43 +39528,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3155999415",
-        "addr:city": "Kołobrzeg",
-        "addr:country": "PL",
-        "addr:county": "Kołobrzeski",
-        "addr:housenumber": "1",
-        "addr:postcode": "78-100",
-        "addr:state": "Zachodniopomorskie",
-        "addr:street": "Plac Ratuszowy",
-        "amenity": "townhall",
-        "email": "starostwo@powiat.kolobrzeg.pl",
-        "entrance": "main",
-        "fax": "+48 94 354 46 42",
-        "government": "county",
-        "name": "Starostwo Powiatowe w Kołobrzegu",
-        "name:de": "Kolberger Kreisverwaltung",
-        "name:en": "Colberg County Administration",
-        "office": "government",
-        "opening_hours": "Mo-Fr 07:30-15:30; PH off",
-        "phone": "+48 94 354 76 18",
-        "source": "http://www.powiat.kolobrzeg.pl",
-        "website": "http://www.powiat.kolobrzeg.pl/",
-        "wheelchair": "yes",
-        "wikidata": "Q1340605",
-        "wikipedia": "pl:Powiat kołobrzeski"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.5765804,
-          54.1763372
-        ]
-      },
-      "id": "node/3155999415"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3168512801",
         "amenity": "townhall",
         "name": "Urząd Miasta w Bukownie"
@@ -39290,22 +39755,6 @@
         ]
       },
       "id": "node/3247019489"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3255602730",
-        "amenity": "townhall",
-        "name": "Urząd Miasta Pyskowice"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.6298565,
-          50.4001234
-        ]
-      },
-      "id": "node/3255602730"
     },
     {
       "type": "Feature",
@@ -40057,6 +40506,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/3540860055",
+        "addr:city": "Zakopane",
+        "addr:housenumber": "15",
+        "addr:postcode": "34-500",
+        "addr:street": "Chramcówki",
+        "amenity": "townhall",
+        "name": "Starostwo Powiatowe - Pawilon B (Wydział Geodezji)",
+        "opening_hours": "Mo 08:00-15:30; Tu-Th 08:00-15:00; Fr 08:00-14:30",
+        "phone": "pok. 17 / tel. 18 20 239 34",
+        "source": "BIP",
+        "website": "https://bip.malopolska.pl/spzakopane/Article/id,90225.html",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9627892,
+          49.3054493
+        ]
+      },
+      "id": "node/3540860055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/3567004102",
         "amenity": "townhall"
       },
@@ -40302,22 +40776,6 @@
         ]
       },
       "id": "node/3661288054"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3665615035",
-        "amenity": "townhall",
-        "name": "Urząd Miejski"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.437092,
-          52.9602
-        ]
-      },
-      "id": "node/3665615035"
     },
     {
       "type": "Feature",
@@ -42064,8 +42522,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.4273776,
-          51.3036234
+          22.4273615,
+          51.3036838
         ]
       },
       "id": "node/4159718903"
@@ -42141,27 +42599,6 @@
         ]
       },
       "id": "node/4176489802"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4183579795",
-        "addr:city": "Ujazd",
-        "addr:city:simc": "0554721",
-        "addr:housenumber": "6",
-        "addr:postcode": "97-225",
-        "addr:street": "Plac Tadeusza Kościuszki",
-        "amenity": "townhall",
-        "source:addr": "ujazdtomaszowski.e-mapa.net"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.92629,
-          51.5967
-        ]
-      },
-      "id": "node/4183579795"
     },
     {
       "type": "Feature",
@@ -44547,8 +44984,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.4459942,
-          51.6392468
+          22.4459336,
+          51.6392013
         ]
       },
       "id": "node/4834717729"
@@ -45402,7 +45839,7 @@
         "amenity": "townhall",
         "name": "Urząd Gminy Jaśliska",
         "phone": "+48 13 431 0581",
-        "website": "www.jasliska.info"
+        "website": "http://www.jasliska.info"
       },
       "geometry": {
         "type": "Point",
@@ -45752,6 +46189,22 @@
         ]
       },
       "id": "node/5159496103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5164622745",
+        "amenity": "townhall",
+        "name": "Urząd Miasta i Gminy w Łosicach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7142894,
+          52.2120953
+        ]
+      },
+      "id": "node/5164622745"
     },
     {
       "type": "Feature",
@@ -46475,25 +46928,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5237650027",
-        "addr:city": "Lublin",
-        "addr:housenumber": "14",
-        "addr:street": "Nałęczowska",
-        "amenity": "townhall",
-        "name": "Zarząd Transportu Miejskiego"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.5181329,
-          51.248929
-        ]
-      },
-      "id": "node/5237650027"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5249610535",
         "amenity": "townhall",
         "email": "wapno@wokiss.pl",
@@ -46558,8 +46992,9 @@
         "email": "ug_siemysl@post.pl",
         "fax": "94 35 85 315",
         "name": "Urząd Gminy Siemyśl",
-        "opening_hours": "Mo-Fr 07:15-14:15",
-        "website": "https://www.siemysl.pl/"
+        "opening_hours": "Mo 07:00-16:00; Tu-Th 07:00-15:00; Fr 07:00-14:00",
+        "website": "https://www.siemysl.pl/",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
@@ -47914,6 +48349,26 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/6815089786",
+        "addr:city": "Opoczno",
+        "addr:housenumber": "1",
+        "addr:street": "Plac Tadeusza Kościuszki",
+        "amenity": "townhall",
+        "name": "Zakład Gospodarki Mieszkaniowej Urzędu Miejskiego",
+        "phone": "44 755 26 19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2896526,
+          51.3761436
+        ]
+      },
+      "id": "node/6815089786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6835831167",
         "amenity": "townhall",
         "name": "Spółdzielnia Mieszkaniowa \"Nasz Dom\""
@@ -47982,6 +48437,503 @@
         ]
       },
       "id": "node/6898314033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6913700822",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Borkowice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6819755,
+          51.3217819
+        ]
+      },
+      "id": "node/6913700822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6913700829",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Rusinów"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5863832,
+          51.4356033
+        ]
+      },
+      "id": "node/6913700829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6913700859",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Klwów"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6326971,
+          51.5332697
+        ]
+      },
+      "id": "node/6913700859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6913711833",
+        "amenity": "townhall",
+        "name": "Urząd Miejski w Tyszowcach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7036904,
+          50.6155505
+        ]
+      },
+      "id": "node/6913711833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6913720653",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Głuchów"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0756162,
+          51.781044
+        ]
+      },
+      "id": "node/6913720653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6913734607",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Jeżów"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9750088,
+          51.8138659
+        ]
+      },
+      "id": "node/6913734607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942358027",
+        "addr:city": "Opoczno",
+        "addr:housenumber": "16",
+        "addr:postcode": "26-300",
+        "addr:street": "Plac Tadeusza Kościuszki",
+        "amenity": "townhall",
+        "name": "Urząd Miejski w Opocznie - Zespół ds. Promocji I Kultury"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2894972,
+          51.3769134
+        ]
+      },
+      "id": "node/6942358027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942732316",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Tarnawatka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3960229,
+          50.5299527
+        ]
+      },
+      "id": "node/6942732316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942732317",
+        "amenity": "townhall",
+        "name": "Urząd Miasta i Gminy Krasnobród"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2174788,
+          50.5436501
+        ]
+      },
+      "id": "node/6942732317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942732318",
+        "amenity": "townhall",
+        "email": "trzcianne@trzcianne.pl",
+        "name": "Urząd Gminy Trzcianne",
+        "opening_hours": "Mo-Fr 07:30-15:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6792638,
+          53.3429629
+        ]
+      },
+      "id": "node/6942732318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942732319",
+        "amenity": "townhall",
+        "name": "Urząd Gminy w Przytułach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3120504,
+          53.36542
+        ]
+      },
+      "id": "node/6942732319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942732321",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Kulesze Kościelne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5054152,
+          53.0159625
+        ]
+      },
+      "id": "node/6942732321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942732323",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Sarnaki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8902526,
+          52.3138281
+        ]
+      },
+      "id": "node/6942732323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942732351",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Zbuczyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4404771,
+          52.0873949
+        ]
+      },
+      "id": "node/6942732351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942732352",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Olszanka",
+        "opening_hours": "Mo-Th 07:30-15:30; We 07:30-17:00; Fr 07:30-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6684969,
+          52.1465231
+        ]
+      },
+      "id": "node/6942732352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6942732354",
+        "amenity": "townhall",
+        "name": "Urząd Gminy w Huszlewie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8401177,
+          52.1376377
+        ]
+      },
+      "id": "node/6942732354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6943917826",
+        "amenity": "townhall",
+        "name": "Urząd Gminy w Trawnikach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9982671,
+          51.1369504
+        ]
+      },
+      "id": "node/6943917826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004720373",
+        "amenity": "townhall",
+        "name": "Rada Dzielnicy Siedlce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6259854,
+          54.3496367
+        ]
+      },
+      "id": "node/7004720373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7021324260",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Sulęczyno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7758954,
+          54.2305542
+        ]
+      },
+      "id": "node/7021324260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7083895149",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Świętajno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.224333,
+          53.5656933
+        ]
+      },
+      "id": "node/7083895149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7099790140",
+        "amenity": "townhall",
+        "name": "Spółdzielnia Mieszkaniowa Michałów"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1596941,
+          51.4279213
+        ]
+      },
+      "id": "node/7099790140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7192715348",
+        "amenity": "townhall",
+        "name": "Urząd Miejski w Dobrej",
+        "website": "https://dobragmina.pl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3098692,
+          53.5865902
+        ]
+      },
+      "id": "node/7192715348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7200642713",
+        "amenity": "townhall",
+        "name": "Spółdzielnia Mieszkaniowa \"Budowlani\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1480992,
+          51.3936286
+        ]
+      },
+      "id": "node/7200642713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7239118305",
+        "amenity": "townhall",
+        "name": "Spółdzielnia Mieszkaniowa Śródmieście"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1575125,
+          51.3942611
+        ]
+      },
+      "id": "node/7239118305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7256266340",
+        "amenity": "townhall",
+        "name": "Urząd Marszałkowski Województwa Mazowieckiego. Delegatura w Radomiu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1488836,
+          51.3946066
+        ]
+      },
+      "id": "node/7256266340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7265801519",
+        "amenity": "townhall",
+        "name": "Urząd Gminy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9326415,
+          54.270165
+        ]
+      },
+      "id": "node/7265801519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7284389700",
+        "amenity": "townhall",
+        "email": "starostwo@powiat.tatry.pl",
+        "fax": "+48 18 201 7104",
+        "name": "Starostwo Powiatowe w Zakopanem",
+        "opening_hours": "Mo 08:00-15:30; Tu-Th 08:00-15:00; Fr 08:00-14:30",
+        "phone": "+48 18 201 7100",
+        "website": "http://powiat.tatry.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9617688,
+          49.3051834
+        ]
+      },
+      "id": "node/7284389700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7312140676",
+        "addr:city": "Inowrocław",
+        "addr:housenumber": "43",
+        "addr:postcode": "88-100",
+        "addr:street": "Królowej Jadwigi",
+        "amenity": "townhall",
+        "name": "Urząd Gminy Inowrocław"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.256461,
+          52.7981042
+        ]
+      },
+      "id": "node/7312140676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7329270825",
+        "amenity": "townhall",
+        "name": "Urząd Gminy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4456756,
+          53.6661662
+        ]
+      },
+      "id": "node/7329270825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7344507404",
+        "amenity": "townhall",
+        "name": "Urząd Gminy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0918354,
+          51.6458984
+        ]
+      },
+      "id": "node/7344507404"
     }
   ]
 }
