@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: rafalr.github.io
+Token: 53fd2353cc3a1467a292d13243ce7403d83806b5a75e65e7eb23190f96016af9
